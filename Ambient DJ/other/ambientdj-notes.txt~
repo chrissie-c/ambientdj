@@ -1,0 +1,68 @@
+#
+# AmbientDJ MIDI in configuration file for Mixtrack Pro II
+# This is a simple file format:
+# <note number>,<label>
+# This is, obviously, a comment.
+#
+# labels are case sensitive and must be correct as they are
+# used internally as 'send' destinations. Leading and trailing
+# spaces will be removed.
+#
+# Pads
+#
+89, Padtop1A
+90, Padtop2A
+91, Padtop3A
+92, Padtop4A
+93, Padtop1B
+94, Padtop2B
+95, Padtop3B
+96, Padtop4B
+83, Padbot1A
+84, Padbot2A
+85, Padbot3A
+99, Padbot4A
+86, Padbot1B
+87, Padbot2B
+88, Padbot3B
+100, Padbot4B
+#
+# Buttons
+#
+118, Browse
+119, Back
+67, PitchBendDnA
+68, PitchBendUpA
+69, PitchBendDnB
+70, PitchBendUpB
+97, ShiftA
+98, ShiftB
+81, CueSmallA
+82, CueSmallB
+75, loadA
+52, loadB
+72, ScratchA
+80, ScratchB
+77, TouchedA
+78, TouchedB
+64, SyncA
+51, CueA
+59, PlayA
+74, StutterA
+71, SyncB
+60, CueB
+66, PlayB
+76, StutterB
+#
+# Lamps that are not also buttons
+#
+40, FXmixA
+41, FXmixB
+30, BelowPad1A
+31, BelowPad2A
+32, BelowPad3A
+33, BelowPad1B
+34, BelowPad2B
+35, BelowPad3B
+53, FolderLamp
+75, FileLamp

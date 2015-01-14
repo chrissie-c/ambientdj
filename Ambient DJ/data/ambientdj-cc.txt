@@ -1,0 +1,43 @@
+#
+# AmbientDJ MIDI in configuration file for Mixtrack Pro II
+# This is a simple file format:
+# <cc number>,<label>
+# This is, obviously, a comment.
+#
+# labels are case sensitive and must be correct as they are used internally as 'send' destinations
+#
+# Encoders first, these are the two decks
+#
+25, DeckA
+24, DeckB
+#
+26, Browser
+27, FX1A
+28, FX2A
+29, FX3A
+30, FX1B
+31, FX2B
+32, FX3B
+33, TapA
+34, TapB
+#
+# Normal rotary controls
+#
+16, TrebleA
+18, MidA
+20, BassA
+17, TrebleB
+19, MidB
+21, BassB
+11, CueGain
+12, CueMix
+#
+# Sliders
+#
+13, PitchA
+14, PitchB
+23, MasterGain
+22, GainA
+7, GainB
+# - in front of the label tell us to invert the value
+10, -CrossFader
