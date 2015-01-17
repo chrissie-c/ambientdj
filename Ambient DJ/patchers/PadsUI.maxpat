@@ -579,15 +579,15 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-130",
-					"linecount" : 2,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 344.5, 160.0, 27.0, 38.0 ],
+					"patching_rect" : [ 344.5, 160.0, 27.0, 69.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 299.090912, 13.380159, 86.0, 22.0 ],
 					"style" : "",
-					"text" : "Save",
+					"text" : "Autosave",
 					"textjustification" : 1
 				}
 
@@ -653,7 +653,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 102.090912, 13.380159, 85.5, 22.0 ],
 					"style" : "",
-					"text" : "AutoRecord",
+					"text" : "Autorecord",
 					"textjustification" : 1
 				}
 

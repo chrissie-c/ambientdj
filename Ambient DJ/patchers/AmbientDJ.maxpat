@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1612.0, 934.0 ],
+		"rect" : [ 34.0, 78.0, 1610.0, 883.0 ],
 		"bgcolor" : [ 0.595701, 0.595683, 0.595693, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -66,7 +66,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 141.75, 562.5, 109.5, 113.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1448.026367, 42.0, 110.5, 100.0 ],
+					"presentation_rect" : [ 1448.026367, 42.0, 101.5, 100.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -87,7 +87,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 26.083332, 562.5, 102.499992, 109.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.0, 44.0, 119.0, 96.0 ],
+					"presentation_rect" : [ 68.0, 44.0, 101.0, 96.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -923,10 +923,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 16.0,
 					"id" : "obj-45",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 313.499969, 321.0, 71.0, 24.0 ],
+					"patching_rect" : [ 313.499969, 321.0, 69.0, 42.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1149.526367, 367.0, 400.0, 24.0 ],
 					"style" : "",
@@ -940,14 +941,15 @@
 					"fontname" : "Arial",
 					"fontsize" : 16.0,
 					"id" : "obj-39",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 32.249992, 321.0, 87.083328, 24.0 ],
+					"patching_rect" : [ 32.249992, 321.0, 69.083328, 42.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 367.0, 400.0, 24.0 ],
 					"style" : "",
-					"text" : "<empty>",
+					"text" : "DeckA-145854",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ]
 				}
 
@@ -1206,6 +1208,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "DeckB" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1216,9 +1219,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "Scrubber2.maxpat",
 					"numinlets" : 5,
-					"numoutlets" : 4,
+					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "", "" ],
+					"outlettype" : [ "signal", "signal", "", "", "" ],
 					"patching_rect" : [ 298.333313, 111.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1149.526367, 396.0, 400.0, 100.0 ],
@@ -1425,7 +1428,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.286275, 0.266667, 0.27451, 1.0 ],
+					"bgcolor" : [ 255.0, 255.0, 255.0, 100.0 ],
 					"coolcolor" : [ 0.439216, 0.74902, 0.254902, 1.0 ],
 					"id" : "obj-85",
 					"markercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1447,7 +1450,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.286275, 0.266667, 0.27451, 1.0 ],
+					"bgcolor" : [ 255.0, 255.0, 255.0, 100.0 ],
 					"coolcolor" : [ 0.439216, 0.74902, 0.254902, 1.0 ],
 					"id" : "obj-84",
 					"markercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -3027,7 +3030,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 44.0, 38.497375, 397.015778, 569.0 ],
 									"readonly" : 1,
-									"rows" : 2,
+									"rows" : 4,
 									"selsync" : 0,
 									"vsync" : 0
 								}
@@ -4206,6 +4209,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "DeckA" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -4216,10 +4220,10 @@
 					"maxclass" : "bpatcher",
 					"name" : "Scrubber2.maxpat",
 					"numinlets" : 5,
-					"numoutlets" : 4,
+					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 27.333326, 111.0, 150.0, 70.0 ],
+					"outlettype" : [ "signal", "signal", "", "", "" ],
+					"patching_rect" : [ 28.333324, 111.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 397.0, 400.0, 100.0 ],
 					"viewvisibility" : 1
@@ -5197,7 +5201,7 @@
 					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 124.166656, 192.0, 186.0, 192.0, 186.0, 231.0, 227.833328, 231.0 ],
+					"midpoints" : [ 103.333328, 192.0, 186.0, 192.0, 186.0, 231.0, 227.833328, 231.0 ],
 					"source" : [ "obj-36", 2 ]
 				}
 
@@ -5207,8 +5211,18 @@
 					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 167.833328, 192.0, 186.0, 192.0, 186.0, 231.0, 211.0, 231.0, 211.0, 306.0, 184.5, 306.0 ],
+					"midpoints" : [ 136.083328, 192.0, 186.0, 192.0, 186.0, 231.0, 211.0, 231.0, 211.0, 306.0, 184.5, 306.0 ],
 					"source" : [ "obj-36", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 168.833328, 231.0, 213.0, 231.0, 213.0, 276.0, 165.0, 276.0, 165.0, 273.0, 129.833328, 273.0 ],
+					"source" : [ "obj-36", 4 ]
 				}
 
 			}
@@ -5217,7 +5231,7 @@
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 167.833328, 193.0, 57.0, 193.0, 57.0, 207.0, 30.333332, 207.0 ],
+					"midpoints" : [ 136.083328, 193.0, 57.0, 193.0, 57.0, 207.0, 30.333332, 207.0 ],
 					"source" : [ "obj-36", 3 ]
 				}
 
@@ -5645,8 +5659,18 @@
 					"destination" : [ "obj-166", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 438.833313, 231.0, 498.0, 231.0, 498.0, 309.0, 477.583313, 309.0 ],
+					"midpoints" : [ 406.083313, 231.0, 498.0, 231.0, 498.0, 309.0, 477.583313, 309.0 ],
 					"source" : [ "obj-95", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 438.833313, 231.0, 390.0, 231.0, 390.0, 279.0, 387.277771, 279.0 ],
+					"source" : [ "obj-95", 4 ]
 				}
 
 			}
@@ -5655,36 +5679,8 @@
 					"destination" : [ "obj-78", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 395.166656, 185.0, 527.333252, 185.0 ],
+					"midpoints" : [ 373.333313, 185.0, 527.333252, 185.0 ],
 					"source" : [ "obj-95", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 438.833313, 240.0, 367.0, 240.0, 367.0, 292.0, 304.999969, 292.0 ],
-					"source" : [ "obj-95", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-93", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-95", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-94", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-95", 0 ]
 				}
 
 			}
@@ -5708,266 +5704,294 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 406.083313, 240.0, 367.0, 240.0, 367.0, 292.0, 304.999969, 292.0 ],
+					"source" : [ "obj-95", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-93", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-95", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-94", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-95", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
-			"obj-58::obj-9" : [ "Selector", "selector", 0 ],
-			"obj-58::obj-11" : [ "live.button", "live.button", 0 ],
-			"obj-95::obj-38" : [ "Play[1]", "Play", 0 ],
-			"obj-36::obj-17" : [ "Stop[3]", "Stop", 0 ],
-			"obj-95::obj-4" : [ "Tape Speed[1]", "Tape Speed", 0 ],
-			"obj-36::obj-38" : [ "Play[2]", "Play", 0 ],
+			"obj-36::obj-38" : [ "Play[3]", "Play", 0 ],
 			"obj-95::obj-17" : [ "Stop[2]", "Stop", 0 ],
-			"obj-36::obj-4" : [ "Tape Speed[2]", "Tape Speed", 0 ]
+			"obj-36::obj-4" : [ "Tape Speed[3]", "Tape Speed", 0 ],
+			"obj-58::obj-9" : [ "Selector", "selector", 0 ],
+			"obj-95::obj-4" : [ "Tape Speed[4]", "Tape Speed", 0 ],
+			"obj-36::obj-17" : [ "Stop[1]", "Stop", 0 ],
+			"obj-95::obj-38" : [ "Play[1]", "Play", 0 ],
+			"obj-58::obj-11" : [ "live.button", "live.button", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Leather.jpeg",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/media",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/media",
 				"patcherrelativepath" : "../media",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MIDI-Router2.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "midi-input-processor.js",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/code",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Scrubber2.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "encoder.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "deckspeed.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fixdc.gendsp",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/code",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Mixer.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "midi-toggle.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Xfader.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Effects-rack.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "One-effect-rack.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "analog-delay.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Pucketteshifter.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Cue-File.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "EQ-rack.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Tone-controls.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Initialise-mixtrack.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "web-header.jpg",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/media",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/media",
 				"patcherrelativepath" : "../media",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Mixtrack-deck.png",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/media",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PadsUI.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Switches.png",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/media",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GlobalSetup.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Vertical track(alpha+black).png",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/media",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Vertical knob.png",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/media",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "strip-filename.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PadsUI-B.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Xfader(alpha).png",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/media",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Xfader knob.png",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/media",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "deck-commands.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "make-deck-command.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "midi-pushbutton.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ping-meters.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "record-managerA.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "record-router.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "record-managerB.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -5977,6 +6001,8 @@
 		"styles" : [ 			{
 				"name" : "Chrissie",
 				"default" : 				{
+					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
+					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 					"bgfillcolor" : 					{
@@ -5988,9 +6014,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
-					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
