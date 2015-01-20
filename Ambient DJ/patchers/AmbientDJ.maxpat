@@ -949,7 +949,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 367.0, 400.0, 24.0 ],
 					"style" : "",
-					"text" : "DeckA-145854",
+					"text" : "<empty>",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ]
 				}
 
@@ -1428,7 +1428,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 255.0, 255.0, 255.0, 100.0 ],
+					"bgcolor" : [ 0.286275, 0.266667, 0.27451, 1.0 ],
 					"coolcolor" : [ 0.439216, 0.74902, 0.254902, 1.0 ],
 					"id" : "obj-85",
 					"markercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1450,7 +1450,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 255.0, 255.0, 255.0, 100.0 ],
+					"bgcolor" : [ 0.286275, 0.266667, 0.27451, 1.0 ],
 					"coolcolor" : [ 0.439216, 0.74902, 0.254902, 1.0 ],
 					"id" : "obj-84",
 					"markercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -3014,8 +3014,8 @@
 , 							{
 								"box" : 								{
 									"automouse" : 0,
-									"coldef" : [ [ 0, 2, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 1, 1000, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
-									"cols" : 2,
+									"coldef" : [ [ 0, 2, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
+									"cols" : 1,
 									"fontface" : 0,
 									"fontname" : "Arial Bold",
 									"fontsize" : 14.0,
@@ -3030,7 +3030,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 44.0, 38.497375, 397.015778, 569.0 ],
 									"readonly" : 1,
-									"rows" : 4,
+									"rows" : 1,
 									"selsync" : 0,
 									"vsync" : 0
 								}
@@ -5734,14 +5734,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-36::obj-38" : [ "Play[3]", "Play", 0 ],
-			"obj-95::obj-17" : [ "Stop[2]", "Stop", 0 ],
-			"obj-36::obj-4" : [ "Tape Speed[3]", "Tape Speed", 0 ],
-			"obj-58::obj-9" : [ "Selector", "selector", 0 ],
-			"obj-95::obj-4" : [ "Tape Speed[4]", "Tape Speed", 0 ],
+			"obj-58::obj-11" : [ "live.button", "live.button", 0 ],
 			"obj-36::obj-17" : [ "Stop[1]", "Stop", 0 ],
 			"obj-95::obj-38" : [ "Play[1]", "Play", 0 ],
-			"obj-58::obj-11" : [ "live.button", "live.button", 0 ]
+			"obj-95::obj-4" : [ "Tape Speed[4]", "Tape Speed", 0 ],
+			"obj-36::obj-38" : [ "Play[3]", "Play", 0 ],
+			"obj-58::obj-9" : [ "Selector", "selector", 0 ],
+			"obj-36::obj-4" : [ "Tape Speed[3]", "Tape Speed", 0 ],
+			"obj-95::obj-17" : [ "Stop[2]", "Stop", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -6001,8 +6001,6 @@
 		"styles" : [ 			{
 				"name" : "Chrissie",
 				"default" : 				{
-					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
-					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 					"bgfillcolor" : 					{
@@ -6014,7 +6012,9 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

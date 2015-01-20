@@ -39,18 +39,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1152.0, 726.0, 34.0, 22.0 ],
-					"style" : "",
-					"text" : "print"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-33",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -285,8 +273,6 @@
 						"styles" : [ 							{
 								"name" : "Chrissie",
 								"default" : 								{
-									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
-									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 									"bgfillcolor" : 									{
@@ -298,7 +284,9 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1450,8 +1438,6 @@
 						"styles" : [ 							{
 								"name" : "Chrissie",
 								"default" : 								{
-									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
-									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 									"bgfillcolor" : 									{
@@ -1463,7 +1449,9 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1644,7 +1632,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 719.0, 345.0, 34.0, 22.0 ],
+									"patching_rect" : [ 728.0, 345.0, 34.0, 22.0 ],
 									"style" : "",
 									"text" : "gate"
 								}
@@ -1681,7 +1669,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 857.0, 550.0, 51.0, 20.0 ],
+									"patching_rect" : [ 866.0, 550.0, 51.0, 20.0 ],
 									"style" : "",
 									"text" : "Save it"
 								}
@@ -1694,7 +1682,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 826.0, 187.0, 150.0, 33.0 ],
+									"patching_rect" : [ 835.0, 187.0, 150.0, 33.0 ],
 									"style" : "",
 									"text" : "Filename handling\n#1 is the Deck (A or B)"
 								}
@@ -1707,7 +1695,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 755.0, 386.0, 33.0, 22.0 ],
+									"patching_rect" : [ 764.0, 386.0, 33.0, 22.0 ],
 									"style" : "",
 									"text" : "t b s"
 								}
@@ -1720,7 +1708,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 744.5, 502.0, 128.0, 22.0 ],
+									"patching_rect" : [ 753.5, 502.0, 128.0, 22.0 ],
 									"style" : "",
 									"text" : "sprintf %s %s/%s.wav"
 								}
@@ -1733,7 +1721,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 676.0, 223.0, 46.0, 22.0 ],
+									"patching_rect" : [ 685.0, 223.0, 46.0, 22.0 ],
 									"style" : "",
 									"text" : "#1"
 								}
@@ -1746,7 +1734,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 744.5, 453.0, 64.0, 22.0 ],
+									"patching_rect" : [ 753.5, 453.0, 64.0, 22.0 ],
 									"style" : "",
 									"text" : "writewave"
 								}
@@ -1759,7 +1747,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 854.0, 280.0, 107.0, 22.0 ],
+									"patching_rect" : [ 853.0, 280.0, 107.0, 22.0 ],
 									"style" : "",
 									"text" : "r SampleDirectory"
 								}
@@ -1772,7 +1760,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 727.5, 147.0, 33.0, 22.0 ],
+									"patching_rect" : [ 736.5, 147.0, 33.0, 22.0 ],
 									"style" : "",
 									"text" : "time"
 								}
@@ -1785,7 +1773,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 676.0, 112.0, 24.0, 24.0 ],
+									"patching_rect" : [ 685.0, 112.0, 24.0, 24.0 ],
 									"style" : ""
 								}
 
@@ -1797,7 +1785,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "int", "int" ],
-									"patching_rect" : [ 738.0, 223.0, 67.0, 22.0 ],
+									"patching_rect" : [ 747.0, 223.0, 67.0, 22.0 ],
 									"style" : "",
 									"text" : "unpack i i i"
 								}
@@ -1810,7 +1798,7 @@
 									"numinlets" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 676.0, 280.0, 159.0, 22.0 ],
+									"patching_rect" : [ 685.0, 280.0, 159.0, 22.0 ],
 									"style" : "",
 									"text" : "sprintf %s-%02d%02d%02d"
 								}
@@ -1823,7 +1811,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "list", "list", "int" ],
-									"patching_rect" : [ 727.5, 187.0, 40.0, 22.0 ],
+									"patching_rect" : [ 736.5, 187.0, 40.0, 22.0 ],
 									"style" : "",
 									"text" : "date"
 								}
@@ -1835,7 +1823,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 744.5, 550.0, 102.0, 22.0 ],
+									"patching_rect" : [ 753.5, 550.0, 102.0, 22.0 ],
 									"style" : "",
 									"text" : "s #0-buffercmd"
 								}
@@ -1848,7 +1836,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 712.0, 757.0, 64.0, 33.0 ],
+									"patching_rect" : [ 717.0, 757.0, 64.0, 33.0 ],
 									"style" : "",
 									"text" : "Filename for display"
 								}
@@ -1861,7 +1849,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 680.0, 757.0, 30.0, 30.0 ],
+									"patching_rect" : [ 685.0, 757.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -2542,7 +2530,7 @@
 									"destination" : [ "obj-22", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 685.5, 138.0, 737.0, 138.0 ],
+									"midpoints" : [ 694.5, 138.0, 746.0, 138.0 ],
 									"source" : [ "obj-19", 0 ]
 								}
 
@@ -2608,7 +2596,7 @@
 									"destination" : [ "obj-19", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 591.5, 751.0, 592.0, 751.0, 674.0, 751.0, 674.0, 102.0, 685.5, 102.0 ],
+									"midpoints" : [ 591.5, 751.0, 592.0, 751.0, 674.0, 751.0, 674.0, 102.0, 694.5, 102.0 ],
 									"source" : [ "obj-24", 0 ]
 								}
 
@@ -2844,7 +2832,7 @@
 									"destination" : [ "obj-18", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 613.5, 330.0, 728.5, 330.0 ],
+									"midpoints" : [ 613.5, 330.0, 737.5, 330.0 ],
 									"source" : [ "obj-9", 0 ]
 								}
 
@@ -2890,8 +2878,6 @@
 						"styles" : [ 							{
 								"name" : "Chrissie",
 								"default" : 								{
-									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
-									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 									"bgfillcolor" : 									{
@@ -2903,7 +2889,9 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4909,15 +4897,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-52", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5234,8 +5213,6 @@
 		"styles" : [ 			{
 				"name" : "Chrissie",
 				"default" : 				{
-					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
-					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 					"bgfillcolor" : 					{
@@ -5247,7 +5224,9 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

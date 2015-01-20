@@ -29,7 +29,7 @@
 #
 # Buttons
 # + in front of a name will initialise the value at startup
-# (internal hack, don't worry about it!)
+# (internal hack, don't worry about it. It’s needed for the Play buttons)
 #
 118, Browse
 119, Back
@@ -67,6 +67,7 @@
 34, BelowPad2B
 35, BelowPad3B
 53, FolderLamp
+#
 # The File lamp shares a MIDI note number with LoadA
 # and my loader can't cope with that. Luckily we don't
 # need the File lamp ...

@@ -11,6 +11,8 @@
 25, DeckA
 24, DeckB
 #
+# The file browser and encoders above the pads
+#
 26, Browser
 27, FX1A
 28, FX2A
@@ -39,5 +41,7 @@
 23, MasterGain
 22, GainA
 7, GainB
+#
 # - in front of the label tell us to invert the value
+#   The crossfader on the Mixtrack goes ’backwards!
 10, -CrossFader
