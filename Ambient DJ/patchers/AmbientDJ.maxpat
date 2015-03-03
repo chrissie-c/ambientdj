@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 78.0, 1610.0, 883.0 ],
+		"rect" : [ 74.0, 45.0, 1274.0, 771.0 ],
 		"bgcolor" : [ 0.595701, 0.595683, 0.595693, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -1428,7 +1428,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.286275, 0.266667, 0.27451, 1.0 ],
+					"bgcolor" : [ 255.0, 255.0, 255.0, 100.0 ],
 					"coolcolor" : [ 0.439216, 0.74902, 0.254902, 1.0 ],
 					"id" : "obj-85",
 					"markercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1450,7 +1450,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.286275, 0.266667, 0.27451, 1.0 ],
+					"bgcolor" : [ 255.0, 255.0, 255.0, 100.0 ],
 					"coolcolor" : [ 0.439216, 0.74902, 0.254902, 1.0 ],
 					"id" : "obj-84",
 					"markercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -4319,6 +4319,7 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"id" : "obj-18",
+					"ignoreclick" : 1,
 					"maxclass" : "dial",
 					"needlecolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
 					"numinlets" : 1,
@@ -4354,6 +4355,7 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"id" : "obj-20",
+					"ignoreclick" : 1,
 					"maxclass" : "dial",
 					"needlecolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
 					"numinlets" : 1,
@@ -4389,6 +4391,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 					"id" : "obj-22",
+					"ignoreclick" : 1,
 					"maxclass" : "dial",
 					"needlecolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
 					"numinlets" : 1,
@@ -4424,6 +4427,7 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"id" : "obj-16",
+					"ignoreclick" : 1,
 					"maxclass" : "dial",
 					"needlecolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
 					"numinlets" : 1,
@@ -4459,6 +4463,7 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"id" : "obj-14",
+					"ignoreclick" : 1,
 					"maxclass" : "dial",
 					"needlecolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
 					"numinlets" : 1,
@@ -4494,6 +4499,7 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"id" : "obj-2",
+					"ignoreclick" : 1,
 					"maxclass" : "dial",
 					"needlecolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
 					"numinlets" : 1,
@@ -4544,6 +4550,7 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"id" : "obj-10",
+					"ignoreclick" : 1,
 					"maxclass" : "dial",
 					"needlecolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
 					"numinlets" : 1,
@@ -4563,6 +4570,7 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"id" : "obj-9",
+					"ignoreclick" : 1,
 					"maxclass" : "dial",
 					"needlecolor" : [ 0.870588, 0.415686, 0.062745, 1.0 ],
 					"numinlets" : 1,
@@ -5734,14 +5742,14 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-95::obj-17" : [ "Stop[2]", "Stop", 0 ],
+			"obj-58::obj-9" : [ "Selector", "selector", 0 ],
 			"obj-58::obj-11" : [ "live.button", "live.button", 0 ],
+			"obj-95::obj-4" : [ "Tape Speed[4]", "Tape Speed", 0 ],
 			"obj-36::obj-17" : [ "Stop[1]", "Stop", 0 ],
 			"obj-95::obj-38" : [ "Play[1]", "Play", 0 ],
-			"obj-95::obj-4" : [ "Tape Speed[4]", "Tape Speed", 0 ],
 			"obj-36::obj-38" : [ "Play[3]", "Play", 0 ],
-			"obj-58::obj-9" : [ "Selector", "selector", 0 ],
-			"obj-36::obj-4" : [ "Tape Speed[3]", "Tape Speed", 0 ],
-			"obj-95::obj-17" : [ "Stop[2]", "Stop", 0 ]
+			"obj-36::obj-4" : [ "Tape Speed[3]", "Tape Speed", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -6001,6 +6009,8 @@
 		"styles" : [ 			{
 				"name" : "Chrissie",
 				"default" : 				{
+					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 					"bgfillcolor" : 					{
@@ -6012,9 +6022,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
