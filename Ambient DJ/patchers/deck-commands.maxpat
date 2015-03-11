@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 43.0, 156.0, 1463.0, 748.0 ],
+		"rect" : [ 34.0, 156.0, 1463.0, 748.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -301,7 +301,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1020.0, 336.0, 71.0, 22.0 ],
 					"style" : "",
-					"text" : "r Padtop4B"
+					"text" : "r Padbot4B"
 				}
 
 			}
@@ -314,7 +314,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 940.0, 31.0, 71.0, 22.0 ],
 					"style" : "",
-					"text" : "r Padtop4A"
+					"text" : "r Padbot4A"
 				}
 
 			}
@@ -383,10 +383,10 @@
 				"box" : 				{
 					"id" : "obj-103",
 					"maxclass" : "newobj",
-					"numinlets" : 15,
+					"numinlets" : 14,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 410.5, 141.0, 126.0, 22.0 ],
+					"patching_rect" : [ 414.5, 136.0, 126.0, 22.0 ],
 					"style" : "",
 					"text" : "make-deck-command"
 				}
@@ -396,7 +396,7 @@
 				"box" : 				{
 					"id" : "obj-102",
 					"maxclass" : "newobj",
-					"numinlets" : 15,
+					"numinlets" : 14,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 467.0, 431.0, 126.0, 22.0 ],
@@ -888,7 +888,7 @@
 					"destination" : [ "obj-67", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 420.0, 189.0, 64.0, 189.0 ],
+					"midpoints" : [ 424.0, 189.0, 64.0, 189.0 ],
 					"source" : [ "obj-103", 0 ]
 				}
 
@@ -940,7 +940,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-103", 12 ],
+					"destination" : [ "obj-103", 11 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-12", 0 ]
@@ -949,7 +949,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-102", 12 ],
+					"destination" : [ "obj-102", 11 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-13", 0 ]
@@ -958,7 +958,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-103", 13 ],
+					"destination" : [ "obj-103", 12 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-14", 0 ]
@@ -967,7 +967,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-102", 13 ],
+					"destination" : [ "obj-102", 12 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-15", 0 ]
@@ -1057,7 +1057,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-103", 14 ],
+					"destination" : [ "obj-103", 13 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-25", 0 ]
@@ -1066,7 +1066,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-102", 14 ],
+					"destination" : [ "obj-102", 13 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-26", 0 ]
@@ -1317,13 +1317,36 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "make-deck-command.maxpat",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "midi-toggle.maxpat",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "midi-pushbutton.maxpat",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "Chrissie",
 				"default" : 				{
 					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
+					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],

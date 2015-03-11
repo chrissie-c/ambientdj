@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 452.0, 191.0, 633.0, 725.0 ],
+		"rect" : [ 605.0, 357.0, 660.0, 711.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -199,11 +199,10 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 493.875, 65.0, 40.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 57.375, 2.0, 48.125, 20.0 ],
+					"presentation_rect" : [ 1.25, 49.0, 40.0, 20.0 ],
 					"style" : "",
 					"text" : "Mono",
-					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ],
-					"textjustification" : 1
+					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -218,7 +217,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 493.875, 91.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 69.4375, 24.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 6.25, 70.0, 24.0, 24.0 ],
 					"style" : "",
 					"thickness" : 75.0
 				}
@@ -234,9 +233,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 363.25, 37.0, 57.75, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -5.25, 2.0, 67.25, 20.0 ],
+					"presentation_rect" : [ 6.25, 2.0, 87.0, 20.0 ],
 					"style" : "",
-					"text" : "Input Chan",
+					"text" : "Input Channel",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -264,7 +263,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 453.25, 436.0, 15.0, 75.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.25, 55.0, 93.1875, 17.0 ],
+					"presentation_rect" : [ 57.0, 24.0, 15.0, 70.0 ],
 					"style" : ""
 				}
 
@@ -278,7 +277,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 470.25, 436.0, 15.0, 75.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.25, 73.0, 93.1875, 17.0 ],
+					"presentation_rect" : [ 78.25, 24.0, 15.0, 70.0 ],
 					"style" : ""
 				}
 
@@ -362,7 +361,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 363.25, 223.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.25, 24.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 6.25, 24.0, 40.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ]
 				}
@@ -988,7 +987,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "midi-toggle.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -998,7 +997,6 @@
 		"styles" : [ 			{
 				"name" : "Chrissie",
 				"default" : 				{
-					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
 					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
@@ -1011,7 +1009,8 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
