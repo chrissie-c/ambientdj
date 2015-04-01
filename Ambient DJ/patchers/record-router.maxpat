@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 605.0, 357.0, 660.0, 711.0 ],
+		"rect" : [ 501.0, 114.0, 660.0, 711.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -44,7 +44,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 290.0, 137.0, 29.5, 22.0 ],
+					"patching_rect" : [ 283.0, 156.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "1"
 				}
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 255.0, 137.0, 29.5, 22.0 ],
+					"patching_rect" : [ 248.0, 156.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "0"
 				}
@@ -438,7 +438,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 149.0, 93.0, 69.0, 22.0 ],
+					"patching_rect" : [ 149.0, 91.0, 69.0, 22.0 ],
 					"style" : "",
 					"text" : "midi-toggle"
 				}
@@ -856,7 +856,7 @@
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 264.5, 204.0, 348.0, 204.0, 348.0, 441.0, 358.5, 441.0 ],
+					"midpoints" : [ 257.5, 204.0, 348.0, 204.0, 348.0, 441.0, 358.5, 441.0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -866,7 +866,7 @@
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 264.5, 193.0, 355.0, 193.0, 355.0, 429.0, 405.25, 429.0 ],
+					"midpoints" : [ 257.5, 193.0, 355.0, 193.0, 355.0, 429.0, 405.25, 429.0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -895,7 +895,7 @@
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 299.5, 204.0, 348.0, 204.0, 348.0, 441.0, 358.5, 441.0 ],
+					"midpoints" : [ 292.5, 204.0, 348.0, 204.0, 348.0, 441.0, 358.5, 441.0 ],
 					"source" : [ "obj-38", 0 ]
 				}
 
@@ -905,7 +905,7 @@
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 299.5, 204.0, 348.0, 204.0, 348.0, 441.0, 405.25, 441.0 ],
+					"midpoints" : [ 292.5, 204.0, 348.0, 204.0, 348.0, 441.0, 405.25, 441.0 ],
 					"source" : [ "obj-38", 0 ]
 				}
 

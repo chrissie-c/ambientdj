@@ -2,8 +2,8 @@
 	"name" : "Ambient DJ",
 	"version" : 1,
 	"creationdate" : -805547717,
-	"modificationdate" : -791052265,
-	"viewrect" : [ 7.0, 44.0, 300.0, 500.0 ],
+	"modificationdate" : -785408725,
+	"viewrect" : [ 7.0, 45.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -247,6 +247,15 @@
 		}
 ,
 		"code" : 		{
+			"midi-input-processor.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"fixdc.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
 
 		}
 
