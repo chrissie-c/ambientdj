@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1006.0, 194.0, 640.0, 480.0 ],
+		"rect" : [ 105.0, 79.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 199.0, 29.0, 25.0, 25.0 ],
 					"style" : ""
 				}
@@ -146,7 +146,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 125.75, 384.0, 43.0, 22.0 ],
+					"patching_rect" : [ 133.75, 388.0, 43.0, 22.0 ],
 					"style" : "",
 					"text" : "set $1"
 				}
@@ -285,7 +285,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 208.5, 370.0, 135.25, 370.0 ],
+					"midpoints" : [ 208.5, 370.0, 143.25, 370.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -295,7 +295,7 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 135.25, 410.0, 75.0, 410.0, 75.0, 267.0, 87.5, 267.0 ],
+					"midpoints" : [ 143.25, 417.0, 75.0, 417.0, 75.0, 267.0, 87.5, 267.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 

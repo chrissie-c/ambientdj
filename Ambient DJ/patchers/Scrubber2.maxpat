@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 47.0, 79.0, 1234.0, 783.0 ],
+		"rect" : [ 155.0, 79.0, 1234.0, 783.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -297,9 +297,7 @@
 						"styles" : [ 							{
 								"name" : "Chrissie",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
-									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -310,7 +308,9 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
+									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
+									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1462,9 +1462,7 @@
 						"styles" : [ 							{
 								"name" : "Chrissie",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
-									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1475,7 +1473,9 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
+									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
+									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2923,9 +2923,7 @@
 						"styles" : [ 							{
 								"name" : "Chrissie",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
-									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2936,7 +2934,9 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
+									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
+									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3910,16 +3910,17 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-35",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 547.75, 271.0, 141.0, 22.0 ],
+					"patching_rect" : [ 536.75, 271.0, 173.0, 22.0 ],
 					"style" : "",
-					"text" : "encoder 0 16384 1 8192"
+					"text" : "speedencoder 0 16384 1 8192"
 				}
 
 			}
@@ -4391,6 +4392,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 683.735291, 258.0, 700.25, 258.0 ],
+					"source" : [ "obj-16", 15 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -4728,7 +4739,7 @@
 					"destination" : [ "obj-30", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 557.25, 302.0, 258.0, 302.0, 258.0, 714.0, 258.5, 714.0 ],
+					"midpoints" : [ 546.25, 302.0, 258.0, 302.0, 258.0, 714.0, 258.5, 714.0 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -4738,7 +4749,7 @@
 					"destination" : [ "obj-37", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 557.25, 313.0, 550.0, 313.0 ],
+					"midpoints" : [ 546.25, 313.0, 550.0, 313.0 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -4925,7 +4936,7 @@
 					"destination" : [ "obj-35", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 600.75, 256.0, 557.25, 256.0 ],
+					"midpoints" : [ 600.75, 256.0, 546.25, 256.0 ],
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -5249,7 +5260,7 @@
 					"destination" : [ "obj-35", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 586.5, 706.0, 644.0, 706.0, 644.0, 655.0, 644.0, 655.0, 644.0, 573.0, 705.0, 573.0, 705.0, 265.0, 679.25, 265.0 ],
+					"midpoints" : [ 586.5, 702.0, 573.0, 702.0, 573.0, 667.0, 498.0, 667.0, 498.0, 266.0, 623.25, 266.0 ],
 					"source" : [ "obj-91", 0 ]
 				}
 
@@ -5259,20 +5270,20 @@
 					"destination" : [ "obj-35", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 633.0, 433.0, 698.0, 433.0, 698.0, 265.0, 679.25, 265.0 ],
+					"midpoints" : [ 633.0, 433.0, 729.0, 433.0, 729.0, 265.0, 700.25, 265.0 ],
 					"source" : [ "obj-94", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-4" : [ "Tape Speed[4]", "Tape Speed", 0 ],
 			"obj-17" : [ "Stop[2]", "Stop", 0 ],
-			"obj-38" : [ "Play[1]", "Play", 0 ]
+			"obj-38" : [ "Play[1]", "Play", 0 ],
+			"obj-4" : [ "Tape Speed[4]", "Tape Speed", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "encoder.maxpat",
+				"name" : "speedencoder.maxpat",
 				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -5297,9 +5308,7 @@
 		"styles" : [ 			{
 				"name" : "Chrissie",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
-					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -5310,7 +5319,9 @@
 						"autogradient" : 0
 					}
 ,
-					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
+					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
+					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

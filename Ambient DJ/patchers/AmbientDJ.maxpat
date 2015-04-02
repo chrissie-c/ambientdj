@@ -598,7 +598,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 655.513184, 158.25, 319.0, 62.0 ],
 					"style" : "",
-					"text" : "Ambient DJ 2",
+					"text" : "Ambient DJ",
 					"textcolor" : [ 1.0, 0.5, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -676,7 +676,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1487.526367, 886.289673, 62.0, 24.0 ],
 					"style" : "",
-					"text" : "1.32",
+					"text" : "0.00",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -754,7 +754,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 886.289673, 63.0, 24.0 ],
 					"style" : "",
-					"text" : "1.00",
+					"text" : "1.22",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ]
 				}
 
@@ -931,7 +931,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1149.526367, 367.0, 400.0, 24.0 ],
 					"style" : "",
-					"text" : "DeckB-090634",
+					"text" : "<empty>",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ]
 				}
 
@@ -949,7 +949,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 367.0, 400.0, 24.0 ],
 					"style" : "",
-					"text" : "DeckA-090958",
+					"text" : "DeckA-201353",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ]
 				}
 
@@ -5742,14 +5742,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-36::obj-4" : [ "Tape Speed[1]", "Tape Speed", 0 ],
-			"obj-95::obj-4" : [ "Tape Speed[4]", "Tape Speed", 0 ],
+			"obj-36::obj-38" : [ "Play[1]", "Play", 0 ],
 			"obj-58::obj-9" : [ "Selector", "selector", 0 ],
-			"obj-58::obj-11" : [ "live.button", "live.button", 0 ],
-			"obj-95::obj-17" : [ "Stop[2]", "Stop", 0 ],
-			"obj-36::obj-38" : [ "Play[2]", "Play", 0 ],
-			"obj-95::obj-38" : [ "Play[1]", "Play", 0 ],
-			"obj-36::obj-17" : [ "Stop[3]", "Stop", 0 ]
+			"obj-95::obj-4" : [ "Tape Speed[5]", "Tape Speed", 0 ],
+			"obj-36::obj-4" : [ "Tape Speed[4]", "Tape Speed", 0 ],
+			"obj-95::obj-17" : [ "Stop[3]", "Stop", 0 ],
+			"obj-36::obj-17" : [ "Stop[2]", "Stop", 0 ],
+			"obj-95::obj-38" : [ "Play[2]", "Play", 0 ],
+			"obj-58::obj-11" : [ "live.button", "live.button", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -5781,7 +5781,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "encoder.maxpat",
+				"name" : "speedencoder.maxpat",
 				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -5824,6 +5824,13 @@
 			}
 , 			{
 				"name" : "Effects-rack.maxpat",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "encoder.maxpat",
 				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -6009,9 +6016,10 @@
 		"styles" : [ 			{
 				"name" : "Chrissie",
 				"default" : 				{
+					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
+					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
-					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -6021,8 +6029,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
