@@ -731,7 +731,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1487.526367, 886.289673, 62.0, 24.0 ],
 					"style" : "",
-					"text" : "0.61",
+					"text" : "1.00",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -986,7 +986,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1149.526367, 367.0, 400.0, 24.0 ],
 					"style" : "",
-					"text" : "DeckB-202954",
+					"text" : "<empty>",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ]
 				}
 
@@ -1004,7 +1004,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 367.0, 400.0, 24.0 ],
 					"style" : "",
-					"text" : "DeckA-202625",
+					"text" : "<empty>",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ]
 				}
 
@@ -3084,6 +3084,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 44.0, 38.497375, 397.015778, 569.0 ],
 									"readonly" : 1,
+									"rows" : 30,
 									"selsync" : 0,
 									"vsync" : 0
 								}
@@ -4908,6 +4909,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-132", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-128", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5670,6 +5680,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-125", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5811,31 +5830,13 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-132", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-128", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-125", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-80", 0 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
+			"obj-95::obj-4" : [ "Tape Speed[5]", "Tape Speed", 0 ],
 			"obj-36::obj-38" : [ "Play[1]", "Play", 0 ],
 			"obj-58::obj-11" : [ "live.button", "live.button", 0 ],
 			"obj-95::obj-17" : [ "Stop[3]", "Stop", 0 ],
 			"obj-36::obj-17" : [ "Stop[2]", "Stop", 0 ],
-			"obj-95::obj-4" : [ "Tape Speed[1]", "Tape Speed", 0 ],
 			"obj-36::obj-4" : [ "Tape Speed[4]", "Tape Speed", 0 ],
 			"obj-95::obj-38" : [ "Play[2]", "Play", 0 ],
 			"obj-58::obj-9" : [ "Selector", "selector", 0 ]

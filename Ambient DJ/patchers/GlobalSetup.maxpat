@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 137.0, 105.0, 1090.0, 680.0 ],
+		"rect" : [ 137.0, 105.0, 777.0, 680.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,48 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 340.0, 312.0, 66.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 191.0, 140.5, 70.0, 20.0 ],
+					"style" : "",
+					"text" : "Auto Save"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 340.0, 389.5, 71.0, 22.0 ],
+					"style" : "",
+					"text" : "s autoSave"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 340.0, 339.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 194.0, 159.5, 24.0, 24.0 ],
+					"style" : "",
+					"varname" : "AutoSave"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-40",
 					"maxclass" : "newobj",
@@ -73,13 +115,14 @@
 					"restore" : 					{
 						"AutoNormalise" : [ 1 ],
 						"AutoRecThreshold" : [ 0.05 ],
+						"AutoSave" : [ 0 ],
 						"MIDIDevice" : [ "MixTrack Pro II" ],
 						"SampleDirectory" : [ "/Users/christine/Downloads/samples" ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u297008138"
+					"varname" : "u138011559"
 				}
 
 			}
@@ -115,7 +158,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 336.5, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 25.0, 251.5, 107.0, 20.0 ],
+					"presentation_rect" : [ 23.0, 251.5, 107.0, 20.0 ],
 					"style" : "",
 					"text" : "MIDI device name"
 				}
@@ -145,6 +188,16 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+					"bgcolor2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0,
+					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"bgfillcolor_color1" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
+					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+					"bgfillcolor_proportion" : 0.39,
+					"bgfillcolor_type" : "gradient",
+					"gradient" : 1,
 					"id" : "obj-34",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -332,7 +385,7 @@
 ,
 					"style" : "",
 					"text" : "pattrstorage",
-					"varname" : "u759007603"
+					"varname" : "u357011016"
 				}
 
 			}
@@ -402,7 +455,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 223.0, 183.5, 130.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 25.0, 140.5, 150.0, 20.0 ],
+					"presentation_rect" : [ 23.0, 140.5, 131.0, 20.0 ],
 					"style" : "",
 					"text" : "Threshold for autoRec"
 				}
@@ -417,7 +470,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 38.0, 170.5, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 25.0, 78.0, 168.0, 20.0 ],
+					"presentation_rect" : [ 22.0, 78.0, 168.0, 20.0 ],
 					"style" : "",
 					"text" : "Folder that holds the samples"
 				}
@@ -807,6 +860,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-39", 0 ]
 				}
 
 			}

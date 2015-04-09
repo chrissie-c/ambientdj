@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -208,15 +208,15 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-17",
-					"linecount" : 4,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 353.5, 191.5, 27.0, 69.0 ],
+					"patching_rect" : [ 353.5, 191.5, 27.0, 38.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 297.090881, 13.380159, 86.0, 22.0 ],
 					"style" : "",
-					"text" : "Autosave",
+					"text" : "Save",
 					"textjustification" : 1
 				}
 
