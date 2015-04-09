@@ -2,7 +2,7 @@
 	"name" : "Ambient DJ",
 	"version" : 1,
 	"creationdate" : -805547717,
-	"modificationdate" : -785408725,
+	"modificationdate" : -784133979,
 	"viewrect" : [ 7.0, 45.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -26,7 +26,7 @@
 				"local" : 1
 			}
 ,
-			"encoder.maxpat" : 			{
+			"speedencoder.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -52,6 +52,11 @@
 			}
 ,
 			"Effects-rack.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"encoder.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

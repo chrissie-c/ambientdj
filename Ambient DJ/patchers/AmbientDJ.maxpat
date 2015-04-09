@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 104.0, 79.0, 1237.0, 742.0 ],
+		"rect" : [ 104.0, 79.0, 1302.0, 742.0 ],
 		"bgcolor" : [ 0.595701, 0.595683, 0.595693, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -38,6 +38,61 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-128",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 633.833374, 445.5, 53.0, 22.0 ],
+					"style" : "",
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-125",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 633.833374, 417.833344, 37.0, 22.0 ],
+					"style" : "",
+					"text" : "open"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-121",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 633.833374, 357.833344, 41.999996, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1579.666748, -11.0, 37.999996, 20.0 ],
+					"style" : "",
+					"text" : "Prefs",
+					"textcolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-80",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 633.833374, 385.333344, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1586.666748, 8.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-123",
 					"maxclass" : "comment",
@@ -496,7 +551,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1266.0, 247.5, 69.0, 22.0 ],
+					"patching_rect" : [ 1266.0, 179.5, 69.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"audiosupport" : 1,
@@ -594,7 +649,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 739.0, 76.5, 314.0, 62.0 ],
+					"patching_rect" : [ 739.0, 74.5, 314.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 655.513184, 158.25, 319.0, 62.0 ],
 					"style" : "",
@@ -676,7 +731,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1487.526367, 886.289673, 62.0, 24.0 ],
 					"style" : "",
-					"text" : "0.00",
+					"text" : "0.61",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -754,7 +809,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 886.289673, 63.0, 24.0 ],
 					"style" : "",
-					"text" : "1.22",
+					"text" : "0.95",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ]
 				}
 
@@ -931,7 +986,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1149.526367, 367.0, 400.0, 24.0 ],
 					"style" : "",
-					"text" : "<empty>",
+					"text" : "DeckB-202954",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ]
 				}
 
@@ -949,7 +1004,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 367.0, 400.0, 24.0 ],
 					"style" : "",
-					"text" : "DeckA-201353",
+					"text" : "DeckA-202625",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ]
 				}
 
@@ -1039,31 +1094,17 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-134",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1266.0, 175.0, 96.0, 20.0 ],
-					"style" : "",
-					"text" : "Directories etc",
-					"textcolor" : [ 0.0, 0.0, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-132",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1266.0, 196.0, 77.0, 22.0 ],
+					"patching_rect" : [ 633.833374, 477.666656, 77.0, 22.0 ],
 					"style" : "",
-					"text" : "GlobalSetup"
+					"text" : "GlobalSetup",
+					"varname" : "GlobalSetup"
 				}
 
 			}
@@ -1502,6 +1543,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-68",
@@ -1754,12 +1796,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 258.0, 79.0, 735.0, 655.0 ],
+						"rect" : [ 258.0, 79.0, 1076.0, 750.0 ],
 						"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -1788,6 +1830,18 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-86",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 474.0, 50.0, 67.0, 22.0 ],
+									"style" : "",
+									"text" : "print gotdir"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-85",
 									"maxclass" : "newobj",
@@ -2721,11 +2775,10 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 14.0,
 									"id" : "obj-17",
-									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 411.0, 253.497375, 99.0, 53.0 ],
+									"patching_rect" : [ 411.0, 253.497375, 253.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 44.0, 9.497375, 370.0, 22.0 ],
 									"style" : "",
@@ -3695,6 +3748,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-47", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-53", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-86", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-53", 0 ]
@@ -5740,16 +5802,43 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-128", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-125", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-132", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-128", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-125", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
 			"obj-36::obj-38" : [ "Play[1]", "Play", 0 ],
-			"obj-58::obj-9" : [ "Selector", "selector", 0 ],
-			"obj-95::obj-4" : [ "Tape Speed[5]", "Tape Speed", 0 ],
-			"obj-36::obj-4" : [ "Tape Speed[4]", "Tape Speed", 0 ],
+			"obj-58::obj-11" : [ "live.button", "live.button", 0 ],
 			"obj-95::obj-17" : [ "Stop[3]", "Stop", 0 ],
 			"obj-36::obj-17" : [ "Stop[2]", "Stop", 0 ],
+			"obj-95::obj-4" : [ "Tape Speed[1]", "Tape Speed", 0 ],
+			"obj-36::obj-4" : [ "Tape Speed[4]", "Tape Speed", 0 ],
 			"obj-95::obj-38" : [ "Play[2]", "Play", 0 ],
-			"obj-58::obj-11" : [ "live.button", "live.button", 0 ]
+			"obj-58::obj-9" : [ "Selector", "selector", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -5921,6 +6010,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "ambientdj.json",
+				"bootpath" : "~/Documents/Max 7/Library",
+				"patcherrelativepath" : "../../../../Max 7/Library",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Vertical track(alpha+black).png",
 				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/media",
 				"patcherrelativepath" : "../media",
@@ -6016,8 +6112,6 @@
 		"styles" : [ 			{
 				"name" : "Chrissie",
 				"default" : 				{
-					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
-					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 					"bgfillcolor" : 					{
@@ -6029,7 +6123,9 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
+					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

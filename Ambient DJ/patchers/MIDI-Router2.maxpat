@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -38,12 +38,38 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 268.0, 61.0, 105.0, 22.0 ],
+					"style" : "",
+					"text" : "sprintf symout %s"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 268.0, 18.0, 80.0, 22.0 ],
+					"style" : "",
+					"text" : "r MIDIDevice"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 493.0, 98.5, 43.0, 22.0 ],
+					"patching_rect" : [ 493.0, 189.5, 43.0, 22.0 ],
 					"style" : "",
 					"text" : "buddy"
 				}
@@ -56,7 +82,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 493.0, 182.0, 108.0, 22.0 ],
+					"patching_rect" : [ 493.0, 273.0, 108.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend sendfrom"
 				}
@@ -69,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 493.0, 240.0, 143.0, 22.0 ],
+					"patching_rect" : [ 493.0, 331.0, 143.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "midi-input-processor.js",
 						"parameter_enable" : 0
@@ -87,7 +113,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 617.0, 56.5, 60.0, 22.0 ],
+					"patching_rect" : [ 617.0, 147.5, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -101,7 +127,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 617.0, 98.5, 95.0, 35.0 ],
+					"patching_rect" : [ 617.0, 189.5, 95.0, 35.0 ],
 					"style" : "",
 					"text" : "loadfile ambientdj-cc.txt"
 				}
@@ -113,7 +139,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 480.0, 20.0, 105.0, 20.0 ],
+					"patching_rect" : [ 480.0, 111.0, 105.0, 20.0 ],
 					"style" : "",
 					"text" : "MIDI CC inputs"
 				}
@@ -126,7 +152,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 493.0, 145.5, 48.0, 22.0 ],
+					"patching_rect" : [ 493.0, 236.5, 48.0, 22.0 ],
 					"style" : "",
 					"text" : "pack i i"
 				}
@@ -139,9 +165,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 493.0, 56.5, 42.0, 22.0 ],
+					"patching_rect" : [ 493.0, 147.5, 40.0, 22.0 ],
 					"style" : "",
-					"text" : "ctlin a"
+					"text" : "ctlin"
 				}
 
 			}
@@ -152,7 +178,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.25, 98.5, 94.0, 22.0 ],
+					"patching_rect" : [ 32.25, 189.5, 94.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend sendto"
 				}
@@ -165,7 +191,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 145.0, 141.0, 108.0, 22.0 ],
+					"patching_rect" : [ 145.0, 232.0, 108.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend sendfrom"
 				}
@@ -178,7 +204,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 145.0, 195.0, 184.0, 22.0 ],
+					"patching_rect" : [ 145.0, 286.0, 184.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "midi-input-processor.js",
 						"parameter_enable" : 0
@@ -196,7 +222,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 268.0, 56.5, 60.0, 22.0 ],
+					"patching_rect" : [ 268.0, 158.5, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -208,7 +234,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.25, 24.0, 82.0, 20.0 ],
+					"patching_rect" : [ 32.25, 118.0, 82.0, 20.0 ],
 					"style" : "",
 					"text" : "MIDI outputs"
 				}
@@ -222,7 +248,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 268.0, 98.5, 135.0, 35.0 ],
+					"patching_rect" : [ 268.0, 189.5, 135.0, 35.0 ],
 					"style" : "",
 					"text" : "loadfile ambientdj-notes.txt"
 				}
@@ -234,9 +260,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 145.0, 240.0, 61.0, 22.0 ],
+					"patching_rect" : [ 145.0, 331.0, 51.0, 22.0 ],
 					"style" : "",
-					"text" : "noteout a"
+					"text" : "noteout"
 				}
 
 			}
@@ -247,7 +273,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.25, 56.5, 81.0, 22.0 ],
+					"patching_rect" : [ 32.25, 147.5, 81.0, 22.0 ],
 					"style" : "",
 					"text" : "r MIDI-output"
 				}
@@ -259,7 +285,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 132.0, 24.0, 105.0, 20.0 ],
+					"patching_rect" : [ 136.0, 115.0, 105.0, 20.0 ],
 					"style" : "",
 					"text" : "MIDI Note inputs"
 				}
@@ -272,7 +298,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 145.0, 98.5, 48.0, 22.0 ],
+					"patching_rect" : [ 145.0, 189.5, 48.0, 22.0 ],
 					"style" : "",
 					"text" : "pack i i"
 				}
@@ -285,9 +311,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 145.0, 56.5, 53.0, 22.0 ],
+					"patching_rect" : [ 145.0, 147.5, 43.0, 22.0 ],
 					"style" : "",
-					"text" : "notein a"
+					"text" : "notein"
 				}
 
 			}
@@ -306,7 +332,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 277.5, 173.0, 154.5, 173.0 ],
+					"midpoints" : [ 277.5, 264.0, 154.5, 264.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -379,8 +405,17 @@
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 626.5, 221.0, 502.5, 221.0 ],
+					"midpoints" : [ 626.5, 312.0, 502.5, 312.0 ],
 					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -440,6 +475,36 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 277.5, 140.0, 249.0, 140.0, 249.0, 141.0, 198.0, 141.0, 198.0, 141.0, 154.5, 141.0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 277.5, 140.0, 465.0, 140.0, 465.0, 141.0, 502.5, 141.0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 277.5, 102.0, 131.0, 102.0, 131.0, 271.0, 132.0, 271.0, 132.0, 325.0, 154.5, 325.0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -450,7 +515,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "midi-input-processor.js",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/code",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1

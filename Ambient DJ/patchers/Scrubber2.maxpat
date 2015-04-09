@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 155.0, 79.0, 1234.0, 783.0 ],
+		"rect" : [ 71.0, 79.0, 1281.0, 783.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -38,6 +38,19 @@
 		"style" : "Chrissie",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1160.0, 85.0, 116.0, 22.0 ],
+					"style" : "",
+					"text" : "r autoRecThreshold"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-33",
 					"maxclass" : "comment",
@@ -86,7 +99,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -297,6 +310,8 @@
 						"styles" : [ 							{
 								"name" : "Chrissie",
 								"default" : 								{
+									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -308,9 +323,7 @@
 										"autogradient" : 0
 									}
 ,
-									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
-									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -514,7 +527,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1462,6 +1475,8 @@
 						"styles" : [ 							{
 								"name" : "Chrissie",
 								"default" : 								{
+									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -1473,9 +1488,7 @@
 										"autogradient" : 0
 									}
 ,
-									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
-									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1551,12 +1564,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 246.0, 79.0, 993.0, 815.0 ],
+						"rect" : [ 246.0, 79.0, 995.0, 791.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1585,6 +1598,32 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-33",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 16.0, 165.0, 95.0, 22.0 ],
+									"style" : "",
+									"text" : "r autoNormalise"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-31",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 40.0, 371.0, 34.0, 22.0 ],
+									"style" : "",
+									"text" : "gate"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-27",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -1603,7 +1642,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 54.5, 423.0, 83.0, 22.0 ],
+									"patching_rect" : [ 40.0, 423.0, 83.0, 22.0 ],
 									"style" : "",
 									"text" : "normalize 0.9"
 								}
@@ -1616,7 +1655,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 516.0, 615.0, 161.0, 60.0 ],
+									"patching_rect" : [ 514.0, 615.0, 161.0, 60.0 ],
 									"style" : "",
 									"text" : "Make sure that 'writewave' arrives after 'crop'\nThere must be a better way of doing this."
 								}
@@ -1885,7 +1924,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 717.0, 757.0, 64.0, 33.0 ],
+									"patching_rect" : [ 717.0, 733.0, 64.0, 33.0 ],
 									"style" : "",
 									"text" : "Filename for display"
 								}
@@ -1898,7 +1937,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 685.0, 757.0, 30.0, 30.0 ],
+									"patching_rect" : [ 685.0, 733.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -1922,7 +1961,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 224.25, 786.0, 112.0, 20.0 ],
+									"patching_rect" : [ 224.25, 762.0, 112.0, 20.0 ],
 									"style" : "",
 									"text" : "Length of recording"
 								}
@@ -2366,7 +2405,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 273.25, 751.0, 30.0, 30.0 ],
+									"patching_rect" : [ 273.25, 727.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -2625,10 +2664,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-29", 0 ],
+									"destination" : [ "obj-31", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 276.4375, 209.0, 64.0, 209.0, 64.0, 408.0, 64.0, 408.0 ],
+									"midpoints" : [ 276.4375, 209.0, 64.0, 209.0, 64.0, 360.0, 64.5, 360.0 ],
 									"source" : [ "obj-27", 1 ]
 								}
 
@@ -2718,7 +2757,7 @@
 									"destination" : [ "obj-70", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 64.0, 486.0, 202.25, 486.0 ],
+									"midpoints" : [ 49.5, 486.0, 202.25, 486.0 ],
 									"source" : [ "obj-29", 0 ]
 								}
 
@@ -2753,11 +2792,29 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-31", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-70", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"midpoints" : [ 155.5, 475.0, 202.25, 475.0 ],
 									"source" : [ "obj-32", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-31", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-33", 0 ]
 								}
 
 							}
@@ -2923,6 +2980,8 @@
 						"styles" : [ 							{
 								"name" : "Chrissie",
 								"default" : 								{
+									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -2934,9 +2993,7 @@
 										"autogradient" : 0
 									}
 ,
-									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
-									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2971,7 +3028,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -5257,6 +5314,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 1169.5, 249.0, 1131.0, 249.0, 1131.0, 246.0, 1121.75, 246.0 ],
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-35", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5270,16 +5337,16 @@
 					"destination" : [ "obj-35", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 633.0, 433.0, 729.0, 433.0, 729.0, 265.0, 700.25, 265.0 ],
+					"midpoints" : [ 633.0, 433.0, 729.0, 433.0, 729.0, 265.0, 623.25, 265.0 ],
 					"source" : [ "obj-94", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
+			"obj-4" : [ "Tape Speed[4]", "Tape Speed", 0 ],
 			"obj-17" : [ "Stop[2]", "Stop", 0 ],
-			"obj-38" : [ "Play[1]", "Play", 0 ],
-			"obj-4" : [ "Tape Speed[4]", "Tape Speed", 0 ]
+			"obj-38" : [ "Play[1]", "Play", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -5308,6 +5375,8 @@
 		"styles" : [ 			{
 				"name" : "Chrissie",
 				"default" : 				{
+					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -5319,9 +5388,7 @@
 						"autogradient" : 0
 					}
 ,
-					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
-					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
