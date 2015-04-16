@@ -819,7 +819,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1487.526367, 886.289673, 62.0, 24.0 ],
 					"style" : "",
-					"text" : "0.00",
+					"text" : "-1.84",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -897,7 +897,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 886.289673, 63.0, 24.0 ],
 					"style" : "",
-					"text" : "-0.32",
+					"text" : "0.02",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ]
 				}
 
@@ -1074,7 +1074,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1149.526367, 367.0, 400.0, 24.0 ],
 					"style" : "",
-					"text" : "<empty>",
+					"text" : "DeckB-220804",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ]
 				}
 
@@ -1092,7 +1092,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 367.0, 400.0, 24.0 ],
 					"style" : "",
-					"text" : "<empty>",
+					"text" : "DeckA-220726",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ]
 				}
 
@@ -1558,7 +1558,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.286275, 0.266667, 0.27451, 1.0 ],
+					"bgcolor" : [ 255.0, 255.0, 255.0, 100.0 ],
 					"coolcolor" : [ 0.439216, 0.74902, 0.254902, 1.0 ],
 					"id" : "obj-85",
 					"markercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1580,7 +1580,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.286275, 0.266667, 0.27451, 1.0 ],
+					"bgcolor" : [ 255.0, 255.0, 255.0, 100.0 ],
 					"coolcolor" : [ 0.439216, 0.74902, 0.254902, 1.0 ],
 					"id" : "obj-84",
 					"markercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -3172,7 +3172,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 44.0, 38.497375, 397.015778, 569.0 ],
 									"readonly" : 1,
-									"rows" : 4,
+									"rows" : 8,
 									"selsync" : 0,
 									"vsync" : 0
 								}
@@ -4997,6 +4997,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-128", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-125", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-157", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5145,6 +5154,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-154", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-146", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-156", 0 ]
 				}
 
 			}
@@ -5976,34 +5994,16 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-128", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-125", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-146", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-156", 0 ]
-				}
-
-			}
  ],
 		"parameters" : 		{
-			"obj-95::obj-17" : [ "Stop[3]", "Stop", 0 ],
+			"obj-36::obj-38" : [ "Play[2]", "Play", 0 ],
+			"obj-95::obj-17" : [ "Stop[2]", "Stop", 0 ],
 			"obj-58::obj-9" : [ "Selector", "selector", 0 ],
-			"obj-36::obj-4" : [ "Tape Speed[4]", "Tape Speed", 0 ],
-			"obj-95::obj-4" : [ "Tape Speed[1]", "Tape Speed", 0 ],
+			"obj-95::obj-4" : [ "Tape Speed[4]", "Tape Speed", 0 ],
 			"obj-58::obj-11" : [ "live.button", "live.button", 0 ],
-			"obj-36::obj-17" : [ "Stop[2]", "Stop", 0 ],
-			"obj-95::obj-38" : [ "Play[2]", "Play", 0 ],
-			"obj-36::obj-38" : [ "Play[1]", "Play", 0 ]
+			"obj-36::obj-17" : [ "Stop[3]", "Stop", 0 ],
+			"obj-95::obj-38" : [ "Play[1]", "Play", 0 ],
+			"obj-36::obj-4" : [ "Tape Speed[1]", "Tape Speed", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -6046,13 +6046,6 @@
 				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fixdc.gendsp",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
@@ -6277,6 +6270,10 @@
 		"styles" : [ 			{
 				"name" : "Chrissie",
 				"default" : 				{
+					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
+					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -6286,11 +6283,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ]
+
 				}
 ,
 				"parentstyle" : "",
