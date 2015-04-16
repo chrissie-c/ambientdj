@@ -2,7 +2,7 @@
 	"name" : "Ambient DJ",
 	"version" : 1,
 	"creationdate" : -805547717,
-	"modificationdate" : -784133979,
+	"modificationdate" : -782909288,
 	"viewrect" : [ 7.0, 45.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -261,6 +261,10 @@
 				"kind" : "gendsp",
 				"local" : 1
 			}
+
+		}
+,
+		"data" : 		{
 
 		}
 

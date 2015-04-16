@@ -38,19 +38,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-36",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1114.0, 210.0, 88.0, 22.0 ],
-					"style" : "",
-					"text" : "brgb 0 250 0 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -1164,6 +1151,7 @@
 		"styles" : [ 			{
 				"name" : "Chrissie",
 				"default" : 				{
+					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 					"bgfillcolor" : 					{
@@ -1176,7 +1164,6 @@
 						"autogradient" : 0
 					}
 ,
-					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 				}
 ,

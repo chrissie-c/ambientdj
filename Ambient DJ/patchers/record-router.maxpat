@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -38,6 +38,45 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-43",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 556.0, 574.0, 46.0, 33.0 ],
+					"presentation_rect" : [ 556.25, 573.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : " Cue Audio"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-37",
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 586.0, 530.5, 30.0, 30.0 ],
+					"presentation_rect" : [ 585.0, 561.0, 0.0, 0.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-29",
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 530.0, 530.5, 30.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-38",
 					"maxclass" : "message",
@@ -142,12 +181,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-30",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 363.25, 574.0, 46.0, 20.0 ],
+					"patching_rect" : [ 363.25, 574.0, 46.0, 33.0 ],
 					"style" : "",
-					"text" : "Audio"
+					"text" : " Deck Audio"
 				}
 
 			}
@@ -806,6 +846,26 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 372.75, 423.0, 539.5, 423.0 ],
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 410.75, 423.0, 595.5, 423.0 ],
+					"source" : [ "obj-19", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -997,9 +1057,9 @@
 		"styles" : [ 			{
 				"name" : "Chrissie",
 				"default" : 				{
-					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
+					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],

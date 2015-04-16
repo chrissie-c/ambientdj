@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 154.0, 634.0, 534.0, 310.0 ],
+		"rect" : [ 249.0, 158.0, 866.0, 397.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,30 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 599.0, 271.0, 107.0, 22.0 ],
+					"style" : "",
+					"text" : "send~ CueTrackR"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 499.0, 271.0, 105.0, 22.0 ],
+					"style" : "",
+					"text" : "send~ CueTrackL"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"fontface" : 1,
@@ -149,9 +173,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "record-router.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 5,
+					"numoutlets" : 7,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "", "", "signal", "signal" ],
+					"outlettype" : [ "", "", "", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 32.0, 68.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 105.0, 136.0 ],
@@ -161,6 +185,24 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 5 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
@@ -226,14 +268,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "record-router.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "midi-toggle.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ7/patchers",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -243,6 +285,9 @@
 		"styles" : [ 			{
 				"name" : "Chrissie",
 				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
+					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -253,10 +298,7 @@
 						"autogradient" : 0
 					}
 ,
-					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
-					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ]
+					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
