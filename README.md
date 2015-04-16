@@ -7,7 +7,7 @@ I use the Numark Mixtrack Pro II.
 The GUI is for show and reference only - this software WILL NOT DO ANYTHING WITHOUT HARDWARE - all of the
 functions are controlled from the DJ Decks.
 
-Currently only the Mixtrack Pro II is supported and must be set to midi device 'a' in Max before starting the software. If you want to use another Deck device then you will need to work out what MIDI codes each 
+Currently only the Mixtrack Pro II is supported and must be named in the preferences screen (button at the top right of the screen). If you want to use another Deck device then you will need to work out what MIDI codes each 
 button, slider, and the decks send and edit the files data/ambientdj-cc.txt (for MIDI CCs) and 
 data/ambientdj-notes.txt (for MIDI notes). If you need help in this then email me.
 
