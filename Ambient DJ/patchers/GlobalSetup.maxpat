@@ -38,6 +38,61 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 241.0, 488.0, 169.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 193.0, 304.5, 167.0, 20.0 ],
+					"style" : "",
+					"text" : "Record buffer size (Seconds)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-52",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 241.0, 595.0, 122.0, 22.0 ],
+					"style" : "",
+					"text" : "s recordBufferLength"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-51",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 241.0, 526.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 198.0, 322.5, 50.0, 22.0 ],
+					"style" : "",
+					"varname" : "recordBufferLength"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 241.0, 566.0, 52.0, 22.0 ],
+					"style" : "",
+					"text" : "* 44100"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-46",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -134,14 +189,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-44",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 360.0, 340.0, 97.0, 20.0 ],
+					"patching_rect" : [ 360.0, 330.0, 97.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 193.0, 248.5, 97.0, 20.0 ],
+					"presentation_rect" : [ 193.0, 248.5, 109.0, 20.0 ],
 					"style" : "",
-					"text" : "Normalise to dB"
+					"text" : "Normalise to (dB)"
 				}
 
 			}
@@ -240,18 +296,19 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 688.5, 595.0, 58.0, 22.0 ],
 					"restore" : 					{
-						"AutoNormalise" : [ 0 ],
-						"AutoRecStop" : [ -60.0 ],
+						"AutoNormalise" : [ 1 ],
+						"AutoRecStop" : [ -50.0 ],
 						"AutoRecThreshold" : [ -12.0 ],
-						"AutoSave" : [ 1 ],
+						"AutoSave" : [ 0 ],
 						"MIDIDevice" : [ "MixTrack Pro II" ],
 						"NormaliseDB" : [ -2.0 ],
-						"SampleDirectory" : [ "/Users/christine/Downloads/samples" ]
+						"SampleDirectory" : [ "/Users/christine/Downloads/samples" ],
+						"recordBufferLength" : [ 30 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u279003304"
+					"varname" : "u681002200"
 				}
 
 			}
@@ -502,7 +559,7 @@
 ,
 					"style" : "",
 					"text" : "pattrstorage",
-					"varname" : "u017002747"
+					"varname" : "u551001645"
 				}
 
 			}
@@ -947,6 +1004,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1074,10 +1140,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-51", 0 ]
 				}
 
 			}

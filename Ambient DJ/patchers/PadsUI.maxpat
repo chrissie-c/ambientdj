@@ -579,15 +579,15 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-130",
-					"linecount" : 2,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 344.5, 160.0, 27.0, 38.0 ],
+					"patching_rect" : [ 344.5, 160.0, 27.0, 85.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 299.090912, 13.380159, 86.0, 22.0 ],
 					"style" : "",
-					"text" : "Save",
+					"text" : "Autoreverse",
 					"textjustification" : 1
 				}
 
@@ -612,15 +612,15 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-128",
-					"linecount" : 5,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 309.0, 160.0, 28.0, 85.0 ],
+					"patching_rect" : [ 309.0, 160.0, 28.0, 38.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 201.090912, 13.380159, 85.0, 22.0 ],
 					"style" : "",
-					"text" : "Autoreverse",
+					"text" : "Save",
 					"textjustification" : 1
 				}
 

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 33.0, 223.0, 1609.0, 501.0 ],
+		"rect" : [ 34.0, 223.0, 873.0, 501.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -76,7 +76,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Save",
 					"id" : "obj-63",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -190,7 +190,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Autoreverse",
 					"id" : "obj-14",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -241,7 +241,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Reverse",
 					"id" : "obj-16",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -845,7 +845,9 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"annotation" : "",
+					"comment" : "Play",
+					"hint" : "",
 					"id" : "obj-46",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -858,7 +860,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Set Play",
 					"id" : "obj-47",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -871,7 +873,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Stutter",
 					"id" : "obj-77",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -884,7 +886,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Scratch",
 					"id" : "obj-78",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -897,7 +899,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Shift",
 					"id" : "obj-79",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -910,7 +912,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Sync",
 					"id" : "obj-80",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -923,7 +925,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Record",
 					"id" : "obj-81",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -936,7 +938,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Loopstart",
 					"id" : "obj-85",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -949,7 +951,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Loopend",
 					"id" : "obj-89",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -962,7 +964,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Loopclear",
 					"id" : "obj-90",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -975,7 +977,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Autorec",
 					"id" : "obj-91",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -1675,9 +1677,26 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "midi-toggle.maxpat",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "midi-pushbutton.maxpat",
+				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "Chrissie",
 				"default" : 				{
+					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 					"bgfillcolor" : 					{
@@ -1690,7 +1709,6 @@
 						"autogradient" : 0
 					}
 ,
-					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 				}
 ,
