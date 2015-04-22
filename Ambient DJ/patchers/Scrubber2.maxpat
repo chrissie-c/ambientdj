@@ -601,6 +601,9 @@
 						"styles" : [ 							{
 								"name" : "Chrissie",
 								"default" : 								{
+									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -611,10 +614,7 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ]
+									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -898,6 +898,9 @@
 						"styles" : [ 							{
 								"name" : "Chrissie",
 								"default" : 								{
+									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -908,10 +911,7 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ]
+									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1972,6 +1972,9 @@
 						"styles" : [ 							{
 								"name" : "Chrissie",
 								"default" : 								{
+									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1982,10 +1985,7 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ]
+									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2095,6 +2095,19 @@
 						"subpatcher_template" : "",
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-50",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 873.0, 541.0, 56.0, 22.0 ],
+									"style" : "",
+									"text" : "deferlow"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-49",
 									"maxclass" : "newobj",
@@ -2585,6 +2598,9 @@
 										"styles" : [ 											{
 												"name" : "Chrissie",
 												"default" : 												{
+													"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2595,10 +2611,7 @@
 														"autogradient" : 0
 													}
 ,
-													"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-													"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ]
+													"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2693,7 +2706,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 889.0, 556.0, 79.0, 22.0 ],
+									"patching_rect" : [ 901.0, 606.0, 79.0, 22.0 ],
 									"style" : "",
 									"text" : "normalize $1"
 								}
@@ -3843,7 +3856,7 @@
 									"destination" : [ "obj-10", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 898.5, 663.0, 770.0, 663.0 ],
+									"midpoints" : [ 910.5, 663.0, 770.0, 663.0 ],
 									"source" : [ "obj-29", 0 ]
 								}
 
@@ -3880,10 +3893,9 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-29", 0 ],
+									"destination" : [ "obj-50", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 898.5, 528.0, 898.5, 528.0 ],
 									"source" : [ "obj-31", 0 ]
 								}
 
@@ -3973,7 +3985,7 @@
 									"destination" : [ "obj-29", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 937.75, 543.0, 898.5, 543.0 ],
+									"midpoints" : [ 937.75, 583.0, 910.5, 583.0 ],
 									"source" : [ "obj-40", 0 ]
 								}
 
@@ -4055,6 +4067,15 @@
 									"hidden" : 0,
 									"midpoints" : [ 503.0, 243.0, 462.416656, 243.0 ],
 									"source" : [ "obj-49", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-50", 0 ]
 								}
 
 							}
@@ -4162,6 +4183,9 @@
 						"styles" : [ 							{
 								"name" : "Chrissie",
 								"default" : 								{
+									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -4172,10 +4196,7 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ]
+									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4524,6 +4545,9 @@
 						"styles" : [ 							{
 								"name" : "Chrissie",
 								"default" : 								{
+									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -4534,10 +4558,7 @@
 										"autogradient" : 0
 									}
 ,
-									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ]
+									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6513,9 +6534,9 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-38" : [ "Play[2]", "Play", 0 ],
 			"obj-17" : [ "Stop[3]", "Stop", 0 ],
-			"obj-4" : [ "Tape Speed[1]", "Tape Speed", 0 ],
-			"obj-38" : [ "Play[2]", "Play", 0 ]
+			"obj-4" : [ "Tape Speed[1]", "Tape Speed", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -6544,6 +6565,9 @@
 		"styles" : [ 			{
 				"name" : "Chrissie",
 				"default" : 				{
+					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -6554,10 +6578,7 @@
 						"autogradient" : 0
 					}
 ,
-					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ]
+					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
