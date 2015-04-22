@@ -14,7 +14,9 @@ data/ambientdj-notes.txt (for MIDI notes). If you need help in this then email m
 If you do sucessfully port those files to another device then *please* send me the files so I can include them
 in future releases.
 
-You can see the software (an earlier version) in action here: https://www.youtube.com/watch?v=miqxx94gB30
+I wrote a blog post about the software here:
+
+ Kirkup <karenkirkup@ntlworld.com>You can see the software (an earlier version) in action here: https://www.youtube.com/watch?v=miqxx94gB30
 
 Chrissie
 
