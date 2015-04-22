@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 192.0, 79.0, 547.0, 596.0 ],
+		"rect" : [ 192.0, 79.0, 626.0, 630.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,13 +38,52 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "int" ],
+					"patching_rect" : [ 369.0, 345.0, 30.0, 22.0 ],
+					"style" : "",
+					"text" : "t b i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 352.0, 5.5, 76.0, 47.0 ],
+					"style" : "Chrissie",
+					"text" : "Reset value but don't send out"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "Reset no send",
+					"id" : "obj-8",
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 369.0, 54.0, 25.0, 25.0 ],
+					"style" : "Chrissie"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 329.0, 465.5, 105.0, 22.0 ],
-					"style" : "",
+					"style" : "Chrissie",
 					"text" : "sprintf symout %s"
 				}
 
@@ -56,8 +95,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 329.0, 422.5, 80.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 329.0, 434.5, 80.0, 22.0 ],
+					"style" : "Chrissie",
 					"text" : "r MIDIDevice"
 				}
 
@@ -70,138 +109,120 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 56.0, 186.0, 24.0, 22.0 ],
-					"style" : "",
+					"style" : "Chrissie",
 					"text" : "t b"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-9",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.0, 465.5, 32.5, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 270.0, 465.5, 33.0, 22.0 ],
+					"style" : "Chrissie",
 					"text" : "$1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 251.0, 32.5, 76.0, 20.0 ],
-					"style" : "",
+					"patching_rect" : [ 263.0, 32.0, 76.0, 20.0 ],
+					"style" : "Chrissie",
 					"text" : "Reset value"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "Reset",
 					"id" : "obj-7",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 298.0, 54.0, 25.0, 25.0 ],
-					"style" : ""
+					"style" : "Chrissie"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 147.0, 102.0, 60.0, 22.0 ],
-					"style" : "",
+					"style" : "Chrissie",
 					"text" : "loadbang"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-10",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 108.5, 186.0, 37.0, 22.0 ],
-					"style" : "",
+					"style" : "Chrissie",
 					"text" : "set 0"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 0.0, 1.0 ],
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 16.0,
 					"id" : "obj-42",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 374.0, 12.5, 157.0, 60.0 ],
-					"style" : "",
-					"text" : "Handle MIDI toggles such as\nplay/pause & cue"
+					"patching_rect" : [ 387.0, 113.0, 169.0, 47.0 ],
+					"style" : "Chrissie",
+					"text" : "Handle MIDI toggles such as\nplay/pause & cue. and also some pads."
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-37",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 133.0, 149.0, 150.0, 20.0 ],
-					"style" : "",
+					"patching_rect" : [ 133.0, 149.0, 140.5, 20.0 ],
+					"style" : "Chrissie",
 					"text" : "Don't care about note off"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-35",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 88.0, 532.0, 31.0, 20.0 ],
-					"style" : "",
+					"patching_rect" : [ 92.0, 532.0, 31.0, 20.0 ],
+					"style" : "Chrissie",
 					"text" : "Off"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-34",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 56.0, 532.0, 31.0, 20.0 ],
-					"style" : "",
+					"patching_rect" : [ 56.0, 532.0, 32.0, 20.0 ],
+					"style" : "Chrissie",
 					"text" : "On"
 				}
 
@@ -213,8 +234,8 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 91.0, 494.5, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 93.0, 494.5, 25.0, 25.0 ],
+					"style" : "Chrissie"
 				}
 
 			}
@@ -226,179 +247,153 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 56.0, 494.5, 25.0, 25.0 ],
-					"style" : ""
+					"style" : "Chrissie"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-26",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
 					"patching_rect" : [ 177.5, 532.0, 51.0, 22.0 ],
-					"style" : "",
+					"style" : "Chrissie",
 					"text" : "noteout"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-28",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 208.5, 465.5, 32.5, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 208.5, 465.5, 33.0, 22.0 ],
+					"style" : "Chrissie",
 					"text" : "0"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-25",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 147.0, 465.5, 32.5, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 147.0, 465.5, 33.0, 22.0 ],
+					"style" : "Chrissie",
 					"text" : "127"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-23",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 91.0, 386.0, 34.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 92.0, 386.0, 34.0, 22.0 ],
+					"style" : "Chrissie",
 					"text" : "t b b"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-22",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
 					"patching_rect" : [ 56.0, 386.0, 34.0, 22.0 ],
-					"style" : "",
+					"style" : "Chrissie",
 					"text" : "t b b"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-21",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
 					"patching_rect" : [ 56.0, 345.0, 62.0, 22.0 ],
-					"style" : "",
+					"style" : "Chrissie",
 					"text" : "select 1 0"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-20",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 91.0, 297.0, 43.0, 22.0 ],
-					"style" : "",
+					"style" : "Chrissie",
 					"text" : "set $1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-16",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 56.0, 260.0, 29.5, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 56.0, 260.0, 30.0, 22.0 ],
+					"style" : "Chrissie",
 					"text" : "!- 1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 163.5, 558.5, 110.0, 20.0 ],
-					"style" : "",
+					"style" : "Chrissie",
 					"text" : "Visual confirmation"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-4",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 29.5, 12.5, 116.0, 33.0 ],
-					"style" : "",
+					"style" : "Chrissie",
 					"text" : "filtered notein from MIDI-Router"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 56.0, 149.0, 65.0, 22.0 ],
-					"style" : "",
+					"style" : "Chrissie",
 					"text" : "select 127"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-1",
 					"maxclass" : "number",
 					"numinlets" : 1,
@@ -406,35 +401,33 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 56.0, 223.0, 50.0, 22.0 ],
-					"style" : ""
+					"style" : "Chrissie"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-31",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"patching_rect" : [ 56.0, 102.0, 61.0, 22.0 ],
-					"style" : "",
+					"style" : "Chrissie",
 					"text" : "unpack i i"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "from notein",
 					"id" : "obj-32",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 56.0, 54.0, 25.0, 25.0 ],
-					"style" : ""
+					"style" : "Chrissie"
 				}
 
 			}
@@ -491,6 +484,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -623,10 +634,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
+					"destination" : [ "obj-9", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 65.5, 134.0, 279.5, 134.0 ],
+					"midpoints" : [ 65.5, 134.0, 293.5, 134.0 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -664,8 +675,27 @@
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 307.5, 326.0, 80.0, 339.0 ],
+					"midpoints" : [ 307.5, 336.0, 65.5, 336.0 ],
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 378.5, 99.0, 378.0, 99.0, 378.0, 282.0, 100.5, 282.0 ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
@@ -684,6 +714,8 @@
 		"styles" : [ 			{
 				"name" : "Chrissie",
 				"default" : 				{
+					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
+					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 					"bgfillcolor" : 					{
@@ -695,9 +727,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
-					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",

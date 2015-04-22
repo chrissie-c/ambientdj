@@ -102,7 +102,7 @@ function loadfile(name)
 // Receive MIDI from the device and dispatch to a receive object
 function sendfrom(midi, value)
 {
-    //post("Sending "+val+" to "+midibits[midi]+"\n");
+    //post("Sending "+value+" to "+midibits[midi]+"\n");
 
     // if 'include' is a parameter then also include the note/cc number in the message
     if (jsarguments.length > 1 && jsarguments[1] == "include") {
@@ -113,7 +113,7 @@ function sendfrom(midi, value)
     }
     else {
         dest = midibits[midi];
-        if (dest.charAt(0) == "-") {
+        if (dest.charAt(0) == "-") { // '-' inverts the value (for Xfader mainly)
             value = 127-value;
             dest = dest.substr(1);
         }

@@ -2,7 +2,7 @@
 	"name" : "Ambient DJ",
 	"version" : 1,
 	"creationdate" : -805547717,
-	"modificationdate" : -782909288,
+	"modificationdate" : -782418910,
 	"viewrect" : [ 7.0, 45.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -147,11 +147,6 @@
 			}
 ,
 			"record-managerB.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"MIDI-Router.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

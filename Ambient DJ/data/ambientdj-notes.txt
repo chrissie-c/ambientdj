@@ -8,6 +8,9 @@
 # used internally as 'send' destinations. Leading and trailing
 # spaces will be removed.
 #
+# + in front of a name will initialise the value at startup
+# (internal hack, don't worry about it. It’s needed for the Play buttons)
+#
 # Pads
 #
 89, Padtop1A
@@ -28,8 +31,6 @@
 100, Padbot4B
 #
 # Buttons
-# + in front of a name will initialise the value at startup
-# (internal hack, don't worry about it. It’s needed for the Play buttons)
 #
 118, Browse
 119, Back
@@ -68,7 +69,7 @@
 35, BelowPad3B
 53, FolderLamp
 #
-# The File lamp shares a MIDI note number with LoadA
+# The File lamp shares a MIDI note number with the LoadA button
 # and my loader can't cope with that. Luckily we don't
 # need the File lamp ...
 #75, FileLamp

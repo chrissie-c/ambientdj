@@ -173,12 +173,12 @@
 					"maxclass" : "bpatcher",
 					"name" : "record-router.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 7,
+					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "", "", "signal", "signal", "signal", "signal" ],
+					"outlettype" : [ "", "", "", "signal", "signal" ],
 					"patching_rect" : [ 32.0, 68.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 105.0, 136.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 121.0, 136.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -189,7 +189,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-10", 6 ]
+					"source" : [ "obj-10", 4 ]
 				}
 
 			}
@@ -198,7 +198,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-10", 5 ]
+					"source" : [ "obj-10", 3 ]
 				}
 
 			}
@@ -285,9 +285,10 @@
 		"styles" : [ 			{
 				"name" : "Chrissie",
 				"default" : 				{
+					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
+					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
-					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -297,8 +298,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "",
