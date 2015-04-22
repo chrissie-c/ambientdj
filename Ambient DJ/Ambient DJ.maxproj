@@ -2,7 +2,7 @@
 	"name" : "Ambient DJ",
 	"version" : 1,
 	"creationdate" : -805547717,
-	"modificationdate" : -782418910,
+	"modificationdate" : -782400194,
 	"viewrect" : [ 7.0, 45.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -187,6 +187,11 @@
 			}
 ,
 			"fadealpha.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"fakestereo.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

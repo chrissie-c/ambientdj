@@ -38,6 +38,49 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 444.0, 531.5, 150.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 193.0, 133.5, 195.0, 20.0 ],
+					"style" : "",
+					"text" : "Fake stereo effect for mono inputs"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-50",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 428.0, 615.0, 78.0, 22.0 ],
+					"style" : "",
+					"text" : "s fakeStereo"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-55",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 428.0, 564.5, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 198.0, 149.5, 24.0, 24.0 ],
+					"style" : "",
+					"varname" : "FakeStereo"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-53",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -307,12 +350,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 688.5, 595.0, 58.0, 22.0 ],
+					"patching_rect" : [ 749.5, 627.0, 58.0, 22.0 ],
 					"restore" : 					{
-						"AutoNormalise" : [ 0 ],
+						"AutoNormalise" : [ 1 ],
 						"AutoRecStop" : [ -40.0 ],
 						"AutoRecThreshold" : [ -20.0 ],
-						"AutoSave" : [ 0 ],
+						"AutoSave" : [ 1 ],
+						"FakeStereo" : [ 1 ],
 						"MIDIDevice" : [ "MixTrack Pro II" ],
 						"NormaliseDB" : [ -2.0 ],
 						"SampleDirectory" : [ "/Users/christine/Downloads/samples" ],
@@ -321,7 +365,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u197001131"
+					"varname" : "u630001145"
 				}
 
 			}
@@ -390,7 +434,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 572.0, 271.0, 38.0, 22.0 ],
+					"patching_rect" : [ 633.0, 303.0, 38.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 27.0, 388.0, 38.0, 22.0 ],
 					"style" : "",
@@ -405,7 +449,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 744.25, 507.0, 82.0, 22.0 ],
+					"patching_rect" : [ 805.25, 539.0, 82.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend read"
 				}
@@ -418,7 +462,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 651.0, 507.0, 83.0, 22.0 ],
+					"patching_rect" : [ 712.0, 539.0, 83.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend write"
 				}
@@ -432,7 +476,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 744.25, 368.0, 298.5, 35.0 ],
+					"patching_rect" : [ 805.25, 400.0, 298.5, 35.0 ],
 					"style" : "",
 					"text" : "\"Haswell:/Users/christine/Documents/Max 7/Library/ambientdj.json\""
 				}
@@ -445,7 +489,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 763.0, 155.0, 24.0, 24.0 ],
+					"patching_rect" : [ 824.0, 187.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -457,7 +501,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 766.0, 264.0, 89.0, 22.0 ],
+					"patching_rect" : [ 827.0, 296.0, 89.0, 22.0 ],
 					"style" : "",
 					"text" : "filepath search"
 				}
@@ -471,7 +515,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 651.0, 427.0, 199.0, 35.0 ],
+					"patching_rect" : [ 712.0, 459.0, 199.0, 35.0 ],
 					"style" : "",
 					"text" : "\"Haswell:/Users/christine/Documents/Max 7/Library/ambientdj.json\""
 				}
@@ -484,7 +528,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 766.0, 306.0, 186.0, 22.0 ],
+					"patching_rect" : [ 827.0, 338.0, 186.0, 22.0 ],
 					"style" : "",
 					"text" : "sprintf symout %s/ambientdj.json"
 				}
@@ -497,7 +541,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "bang" ],
-					"patching_rect" : [ 688.5, 217.0, 44.0, 22.0 ],
+					"patching_rect" : [ 749.5, 249.0, 44.0, 22.0 ],
 					"style" : "",
 					"text" : "t b b b"
 				}
@@ -510,7 +554,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 651.0, 324.0, 29.5, 22.0 ],
+					"patching_rect" : [ 712.0, 356.0, 29.5, 22.0 ],
 					"style" : "",
 					"text" : "1"
 				}
@@ -523,7 +567,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 684.0, 155.0, 60.0, 22.0 ],
+					"patching_rect" : [ 745.0, 187.0, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -536,7 +580,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 587.0, 427.0, 47.0, 22.0 ],
+					"patching_rect" : [ 648.0, 459.0, 47.0, 22.0 ],
 					"style" : "",
 					"text" : "store 1"
 				}
@@ -549,7 +593,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 572.0, 324.0, 34.0, 22.0 ],
+					"patching_rect" : [ 633.0, 356.0, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "t b b"
 				}
@@ -563,7 +607,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 593.0, 595.0, 75.0, 22.0 ],
+					"patching_rect" : [ 654.0, 627.0, 75.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 45, 358, 173 ],
 						"parameter_enable" : 0,
@@ -572,7 +616,7 @@
 ,
 					"style" : "",
 					"text" : "pattrstorage",
-					"varname" : "u547000555"
+					"varname" : "u533000565"
 				}
 
 			}
@@ -1001,6 +1045,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1167,6 +1220,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-55", 0 ]
 				}
 
 			}
