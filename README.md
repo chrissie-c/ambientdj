@@ -16,7 +16,9 @@ in future releases.
 
 I wrote a blog post about the software here:
 
- Kirkup <karenkirkup@ntlworld.com>You can see the software (an earlier version) in action here: https://www.youtube.com/watch?v=miqxx94gB30
+https://chrissieviolin.wordpress.com/2015/04/10/ambient-dj/
+
+and you can see an earlier version of it in action here: https://www.youtube.com/watch?v=miqxx94gB30
 
 Chrissie
 
