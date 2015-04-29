@@ -705,7 +705,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1487.526367, 886.289673, 62.0, 24.0 ],
 					"style" : "",
-					"text" : "0.85",
+					"text" : "-3.11",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -783,7 +783,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 886.289673, 63.0, 24.0 ],
 					"style" : "",
-					"text" : "0.70",
+					"text" : "-0.18",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ]
 				}
 
@@ -1444,7 +1444,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.286275, 0.266667, 0.27451, 1.0 ],
+					"bgcolor" : [ 255.0, 255.0, 255.0, 100.0 ],
 					"coolcolor" : [ 0.439216, 0.74902, 0.254902, 1.0 ],
 					"id" : "obj-85",
 					"markercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1466,7 +1466,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.286275, 0.266667, 0.27451, 1.0 ],
+					"bgcolor" : [ 255.0, 255.0, 255.0, 100.0 ],
 					"coolcolor" : [ 0.439216, 0.74902, 0.254902, 1.0 ],
 					"id" : "obj-84",
 					"markercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -5831,13 +5831,13 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-95::obj-17" : [ "Stop[1]", "Stop", 0 ],
+			"obj-36::obj-4" : [ "Tape Speed[1]", "Tape Speed", 0 ],
 			"obj-95::obj-38" : [ "Play[3]", "Play", 0 ],
 			"obj-36::obj-17" : [ "Stop[3]", "Stop", 0 ],
-			"obj-58::obj-11" : [ "live.button", "live.button", 0 ],
-			"obj-95::obj-17" : [ "Stop[1]", "Stop", 0 ],
 			"obj-95::obj-4" : [ "Tape Speed[2]", "Tape Speed", 0 ],
-			"obj-36::obj-4" : [ "Tape Speed[1]", "Tape Speed", 0 ],
 			"obj-36::obj-38" : [ "Play[2]", "Play", 0 ],
+			"obj-58::obj-11" : [ "live.button", "live.button", 0 ],
 			"obj-58::obj-9" : [ "Selector", "selector", 0 ]
 		}
 ,
@@ -5881,13 +5881,6 @@
 				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fixdc.gendsp",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{

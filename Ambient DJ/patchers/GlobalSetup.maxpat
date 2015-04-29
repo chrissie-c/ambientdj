@@ -355,7 +355,7 @@
 						"AutoNormalise" : [ 1 ],
 						"AutoRecStop" : [ -40.0 ],
 						"AutoRecThreshold" : [ -20.0 ],
-						"AutoSave" : [ 1 ],
+						"AutoSave" : [ 0 ],
 						"FakeStereo" : [ 1 ],
 						"MIDIDevice" : [ "MixTrack Pro II" ],
 						"NormaliseDB" : [ -2.0 ],
@@ -365,7 +365,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u630001145"
+					"varname" : "u081001159"
 				}
 
 			}
@@ -616,7 +616,7 @@
 ,
 					"style" : "",
 					"text" : "pattrstorage",
-					"varname" : "u533000565"
+					"varname" : "u732000579"
 				}
 
 			}
@@ -993,15 +993,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 29.5, 192.0, 8.0, 192.0, 8.0, 320.0, 39.5, 320.0 ],
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
 
