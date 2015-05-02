@@ -356,7 +356,7 @@
 						"AutoRecStop" : [ -40.0 ],
 						"AutoRecThreshold" : [ -20.0 ],
 						"AutoSave" : [ 0 ],
-						"FakeStereo" : [ 1 ],
+						"FakeStereo" : [ 0 ],
 						"MIDIDevice" : [ "MixTrack Pro II" ],
 						"NormaliseDB" : [ -2.0 ],
 						"SampleDirectory" : [ "/Users/christine/Downloads/samples" ],
@@ -365,7 +365,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u081001159"
+					"varname" : "u929001335"
 				}
 
 			}
@@ -616,7 +616,7 @@
 ,
 					"style" : "",
 					"text" : "pattrstorage",
-					"varname" : "u732000579"
+					"varname" : "u624000768"
 				}
 
 			}
@@ -657,7 +657,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 118.0, 18.0, 220.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 25.0, 21.0, 223.0, 47.0 ],
+					"presentation_rect" : [ 19.0, 21.0, 223.0, 47.0 ],
 					"style" : "",
 					"text" : "Preferences"
 				}
@@ -1036,15 +1036,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-55", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1208,6 +1199,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-53", 0 ]
