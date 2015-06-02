@@ -8,9 +8,6 @@
 # used internally as 'send' destinations. Leading and trailing
 # spaces will be removed.
 #
-# + in front of a name will initialise the value at startup
-# (internal hack, don't worry about it. It’s needed for the Play buttons)
-#
 # Pads
 #
 89, Padtop1A
@@ -50,11 +47,11 @@
 78, TouchedB
 64, SyncA
 51, CueA
-59, +PlayA
+59, PlayA
 74, StutterA
 71, SyncB
 60, CueB
-66, +PlayB
+66, PlayB
 76, StutterB
 #
 # Lamps that are not also buttons

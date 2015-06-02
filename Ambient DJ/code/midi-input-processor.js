@@ -46,26 +46,15 @@ function load()
 
             // Split into list entries by comma & convert first value to int
             list = ln.split(",", 2);
-                midinum = to_number(list[0]);
-                label = list[1].trim();
-
-            // A '+' at the start of the name forces initialisation
-            if (label.charAt(0) == "+") {
-				plusfound = 1;
-                label = label.substr(1);
-            }
-			else {
-				plusfound = 0;
-			}
+            midinum = to_number(list[0]);
+            label = list[1].trim();
 
             // Save in the lookup array
             midibits[midinum] = label;
 
-			// Needs to be after saving in midibits[]
-			if (plusfound == 1) {
-			    sendfrom(midinum, 1);
-			}
-
+			// Initialise internal structs
+			sendfrom(midinum, 1);
+			
         } while (++linesread < file.eof);
         file.close;
         outlet(1, 1); // Bang to show we've finished
