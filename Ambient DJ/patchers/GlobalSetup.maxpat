@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 305.0, 106.0, 1059.0, 680.0 ],
+		"rect" : [ 244.0, 79.0, 1059.0, 680.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,92 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-66",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 923.0, 135.5, 100.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 554.0, 219.5, 75.0, 22.0 ],
+					"style" : "",
+					"text" : "s DeckBdac"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-65",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 816.0, 135.5, 100.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 457.0, 219.5, 75.0, 22.0 ],
+					"style" : "",
+					"text" : "s DeckAdac"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-64",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Output router.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 923.0, 82.5, 55.0, 35.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 554.0, 149.5, 43.0, 24.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-63",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Output router.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 827.0, 82.5, 43.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 457.0, 149.5, 43.0, 24.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-62",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 835.0, 54.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 457.0, 132.5, 140.0, 20.0 ],
+					"style" : "",
+					"text" : "Deck A channels Deck B"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -45,7 +131,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 444.0, 531.5, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 193.0, 133.5, 195.0, 20.0 ],
+					"presentation_rect" : [ 193.0, 132.5, 195.0, 20.0 ],
 					"style" : "",
 					"text" : "Fake stereo effect for mono inputs"
 				}
@@ -278,14 +364,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-18",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 340.0, 66.0, 20.0 ],
+					"patching_rect" : [ 223.0, 340.0, 66.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 304.5, 70.0, 20.0 ],
+					"presentation_rect" : [ 22.0, 304.5, 127.0, 20.0 ],
 					"style" : "",
-					"text" : "Auto save"
+					"text" : "Auto save recordings"
 				}
 
 			}
@@ -365,7 +452,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u929001335"
+					"varname" : "u211001256"
 				}
 
 			}
@@ -389,7 +476,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 336.5, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 133.5, 107.0, 20.0 ],
+					"presentation_rect" : [ 22.0, 132.5, 107.0, 20.0 ],
 					"style" : "",
 					"text" : "MIDI device name"
 				}
@@ -616,7 +703,7 @@
 ,
 					"style" : "",
 					"text" : "pattrstorage",
-					"varname" : "u624000768"
+					"varname" : "u321000687"
 				}
 
 			}
@@ -1220,6 +1307,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-55", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-66", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-64", 0 ]
 				}
 
 			}

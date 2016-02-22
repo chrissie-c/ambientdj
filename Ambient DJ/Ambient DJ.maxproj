@@ -2,7 +2,7 @@
 	"name" : "Ambient DJ",
 	"version" : 1,
 	"creationdate" : -805547717,
-	"modificationdate" : -781700136,
+	"modificationdate" : -769962952,
 	"viewrect" : [ 7.0, 45.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -195,6 +195,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"Output router.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -280,5 +285,7 @@
 ,
 	"detailsvisible" : 0,
 	"amxdtype" : 0,
-	"readonly" : 1
+	"readonly" : 1,
+	"devpathtype" : 0,
+	"devpath" : "."
 }

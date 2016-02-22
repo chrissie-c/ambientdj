@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 166.0, 156.0, 625.0, 711.0 ],
+		"rect" : [ 207.0, 59.0, 625.0, 711.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -445,7 +445,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 149.0, 91.0, 69.0, 22.0 ],
+					"patching_rect" : [ 149.0, 86.0, 69.0, 22.0 ],
 					"style" : "",
 					"text" : "midi-toggle"
 				}
@@ -946,7 +946,6 @@
 		"dependency_cache" : [ 			{
 				"name" : "midi-toggle.maxpat",
 				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -955,10 +954,9 @@
 		"styles" : [ 			{
 				"name" : "Chrissie",
 				"default" : 				{
-					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
-					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
+					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -968,7 +966,8 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
