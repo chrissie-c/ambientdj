@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 16.0, 45.0, 1256.0, 756.0 ],
+		"rect" : [ 0.0, 45.0, 1260.0, 757.0 ],
 		"bgcolor" : [ 0.595701, 0.595683, 0.595693, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -153,7 +153,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 355.0, 367.0, 113.0, 24.0 ],
 					"style" : "",
-					"text" : "4965 mS",
+					"text" : "3275 mS",
 					"textcolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"textjustification" : 2
 				}
@@ -171,7 +171,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1442.666748, 369.0, 106.859619, 24.0 ],
 					"style" : "",
-					"text" : "0 mS",
+					"text" : "1499 mS",
 					"textcolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"textjustification" : 2
 				}
@@ -818,7 +818,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1487.526367, 886.289673, 62.0, 24.0 ],
 					"style" : "",
-					"text" : "0.00",
+					"text" : "-0.60",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
@@ -866,7 +866,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 886.289673, 63.0, 24.0 ],
 					"style" : "",
-					"text" : "-4.33",
+					"text" : "0.67",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ]
 				}
 
@@ -1043,7 +1043,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1149.526367, 367.0, 320.0, 24.0 ],
 					"style" : "",
-					"text" : "<empty>",
+					"text" : "DeckB-201839",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ]
 				}
 
@@ -1061,7 +1061,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 367.0, 320.0, 24.0 ],
 					"style" : "",
-					"text" : "CWRobotB",
+					"text" : "DeckA-201820",
 					"textcolor" : [ 1.0, 1.0, 0.0, 1.0 ]
 				}
 
@@ -1320,7 +1320,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 7,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "", "", "", "float", "", "bang" ],
+					"outlettype" : [ "signal", "signal", "", "", "float", "", "bang" ],
 					"patching_rect" : [ 358.971863, 111.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1149.526367, 396.0, 400.0, 100.0 ],
@@ -3113,7 +3113,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 44.0, 38.497375, 397.015778, 569.0 ],
 									"readonly" : 1,
-									"rows" : 11,
+									"rows" : 35,
 									"selsync" : 0,
 									"vsync" : 0
 								}
@@ -4129,9 +4129,7 @@
 						"styles" : [ 							{
 								"name" : "Chrissie",
 								"default" : 								{
-									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
@@ -4142,7 +4140,9 @@
 										"proportion" : 0.39,
 										"autogradient" : 0
 									}
-
+,
+									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
+									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4301,7 +4301,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 7,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "", "", "", "float", "", "bang" ],
+					"outlettype" : [ "signal", "signal", "", "", "float", "", "bang" ],
 					"patching_rect" : [ 28.333324, 111.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 68.0, 397.0, 400.0, 100.0 ],
@@ -5948,12 +5948,12 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-58::obj-11" : [ "live.button", "live.button", 0 ],
-			"obj-95::obj-38" : [ "Play[3]", "Play", 0 ],
 			"obj-58::obj-9" : [ "Selector", "selector", 0 ],
-			"obj-36::obj-38" : [ "Play[4]", "Play", 0 ],
-			"obj-36::obj-17" : [ "Stop[5]", "Stop", 0 ],
-			"obj-95::obj-17" : [ "Stop[4]", "Stop", 0 ]
+			"obj-58::obj-11" : [ "live.button", "live.button", 0 ],
+			"obj-95::obj-38" : [ "Play[4]", "Play", 0 ],
+			"obj-95::obj-17" : [ "Stop[5]", "Stop", 0 ],
+			"obj-36::obj-17" : [ "Stop[1]", "Stop", 0 ],
+			"obj-36::obj-38" : [ "Play[1]", "Play", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -6201,9 +6201,7 @@
 		"styles" : [ 			{
 				"name" : "Chrissie",
 				"default" : 				{
-					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -6214,7 +6212,9 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
+					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

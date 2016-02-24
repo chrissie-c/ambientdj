@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1372.0, 783.0 ],
+		"rect" : [ 51.0, 343.0, 300.0, 75.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -483,7 +483,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 105.0, 40.0, 30.0, 30.0 ],
 									"style" : "Chrissie"
 								}
@@ -723,7 +723,6 @@
 								"default" : 								{
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
-									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -734,6 +733,7 @@
 										"autogradient" : 0
 									}
 ,
+									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 								}
 ,
@@ -839,7 +839,6 @@
 						"tags" : "",
 						"style" : "Chrissie",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
@@ -977,7 +976,6 @@
 								"default" : 								{
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
-									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -988,6 +986,7 @@
 										"autogradient" : 0
 									}
 ,
+									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 								}
 ,
@@ -2051,7 +2050,6 @@
 								"default" : 								{
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
-									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2062,6 +2060,7 @@
 										"autogradient" : 0
 									}
 ,
+									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 								}
 ,
@@ -2438,7 +2437,7 @@
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "signal" ],
 													"patching_rect" : [ 60.0, 41.0, 30.0, 30.0 ],
 													"style" : "Chrissie"
 												}
@@ -2476,7 +2475,7 @@
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "signal" ],
 													"patching_rect" : [ 16.0, 41.0, 30.0, 30.0 ],
 													"style" : "Chrissie"
 												}
@@ -2677,7 +2676,6 @@
 												"default" : 												{
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
-													"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 													"bgfillcolor" : 													{
 														"type" : "gradient",
 														"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2688,6 +2686,7 @@
 														"autogradient" : 0
 													}
 ,
+													"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 													"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 												}
 ,
@@ -3468,8 +3467,6 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial Bold",
-									"fontsize" : 12.0,
 									"format" : 6,
 									"id" : "obj-46",
 									"maxclass" : "flonum",
@@ -3478,7 +3475,7 @@
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 324.25, 606.0, 78.0, 22.0 ],
-									"style" : ""
+									"style" : "Chrissie"
 								}
 
 							}
@@ -3499,16 +3496,13 @@
 							}
 , 							{
 								"box" : 								{
-									"fontface" : 0,
-									"fontname" : "Arial Bold",
-									"fontsize" : 12.0,
 									"id" : "obj-69",
 									"maxclass" : "newobj",
 									"numinlets" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 452.916656, 306.0, 122.0, 22.0 ],
-									"style" : "",
+									"patching_rect" : [ 452.916656, 306.0, 117.0, 22.0 ],
+									"style" : "Chrissie",
 									"text" : "record~ #0-tape 2"
 								}
 
@@ -3546,7 +3540,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 477.0, 36.0, 30.0, 30.0 ],
 									"style" : ""
 								}
@@ -3559,7 +3553,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 509.0, 36.0, 30.0, 30.0 ],
 									"style" : ""
 								}
@@ -4132,7 +4126,7 @@
 									"destination" : [ "obj-69", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 526.0, 243.0, 496.0, 243.0, 496.0, 291.0, 496.75, 291.0 ],
+									"midpoints" : [ 526.0, 243.0, 496.0, 243.0, 496.0, 291.0, 495.083313, 291.0 ],
 									"source" : [ "obj-49", 1 ]
 								}
 
@@ -4262,7 +4256,6 @@
 								"default" : 								{
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
-									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -4273,6 +4266,7 @@
 										"autogradient" : 0
 									}
 ,
+									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 								}
 ,
@@ -4624,7 +4618,6 @@
 								"default" : 								{
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
-									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -4635,6 +4628,7 @@
 										"autogradient" : 0
 									}
 ,
+									"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 									"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 								}
 ,
@@ -4765,7 +4759,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1024.25, 10.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -4778,7 +4772,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 992.25, 10.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -4916,7 +4910,7 @@
 					"patching_rect" : [ 40.5, 167.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Play[3]",
+							"parameter_longname" : "Play[1]",
 							"parameter_shortname" : "Play",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
@@ -4942,7 +4936,7 @@
 					"patching_rect" : [ 124.0, 167.0, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Stop[4]",
+							"parameter_longname" : "Stop[1]",
 							"parameter_shortname" : "Stop",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
@@ -5264,9 +5258,9 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 536.75, 271.0, 161.0, 22.0 ],
+					"patching_rect" : [ 536.75, 271.0, 167.0, 22.0 ],
 					"style" : "",
-					"text" : "speedencoder -5. 5. 0.001 0"
+					"text" : "speedencoder -5. 5. 0.0005 0"
 				}
 
 			}
@@ -5460,7 +5454,7 @@
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
-						"loopend" : [ 17658.980469, "ms" ],
+						"loopend" : [ 1759.637207, "ms" ],
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 0.0, "ticks" ],
@@ -5714,7 +5708,7 @@
 					"destination" : [ "obj-35", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 683.735291, 216.0, 700.0, 216.0, 700.0, 267.0, 688.25, 267.0 ],
+					"midpoints" : [ 683.735291, 216.0, 700.0, 216.0, 700.0, 267.0, 694.25, 267.0 ],
 					"source" : [ "obj-16", 15 ]
 				}
 
@@ -6376,6 +6370,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 98.0, 575.0 ],
+					"source" : [ "obj-63", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-62", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -6570,7 +6574,7 @@
 					"destination" : [ "obj-35", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 586.5, 702.0, 569.0, 702.0, 569.0, 663.0, 498.0, 663.0, 498.0, 258.0, 617.25, 258.0 ],
+					"midpoints" : [ 586.5, 702.0, 569.0, 702.0, 569.0, 663.0, 498.0, 663.0, 498.0, 258.0, 620.25, 258.0 ],
 					"source" : [ "obj-91", 0 ]
 				}
 
@@ -6580,7 +6584,7 @@
 					"destination" : [ "obj-35", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 633.0, 357.0, 720.0, 357.0, 720.0, 258.0, 617.25, 258.0 ],
+					"midpoints" : [ 633.0, 357.0, 720.0, 357.0, 720.0, 258.0, 620.25, 258.0 ],
 					"source" : [ "obj-94", 0 ]
 				}
 
@@ -6616,31 +6620,11 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-38" : [ "Play[3]", "Play", 0 ],
-			"obj-17" : [ "Stop[4]", "Stop", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "speedencoder.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "deckspeed.maxpat",
-				"bootpath" : "~/Documents/CSMA/Ambient DJ/Ambient DJ/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Chrissie",
 				"default" : 				{
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"patchlinecolor" : [ 0.784314, 0.145098, 0.023529, 0.9 ],
-					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -6651,6 +6635,7 @@
 						"autogradient" : 0
 					}
 ,
+					"bgcolor" : [ 0.825181, 0.847682, 0.781879, 1.0 ],
 					"accentcolor" : [ 0.701961, 0.415686, 0.886275, 1.0 ]
 				}
 ,
