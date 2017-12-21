@@ -1,8 +1,8 @@
 {
 	"name" : "Ambient DJ",
 	"version" : 1,
-	"creationdate" : -805547717,
-	"modificationdate" : -769962952,
+	"creationdate" : -805547838,
+	"modificationdate" : 3596722376,
 	"viewrect" : [ 7.0, 45.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -36,12 +36,77 @@
 				"local" : 1
 			}
 ,
-			"Mixer.maxpat" : 			{
+			"midi-toggle.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"midi-toggle.maxpat" : 			{
+			"Cue-File.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Initialise-mixtrack.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"PadsUI.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"GlobalSetup.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Output router.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"strip-filename.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"PadsUI-B.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"deck-commands.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"make-deck-command.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"midi-pushbutton.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"record-managerA.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"record-router.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"record-managerB.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Mixer.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -76,11 +141,6 @@
 				"local" : 1
 			}
 ,
-			"Cue-File.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"EQ-rack.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -91,67 +151,17 @@
 				"local" : 1
 			}
 ,
-			"Initialise-mixtrack.maxpat" : 			{
+			"fakestereo.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"PadsUI.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"GlobalSetup.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"strip-filename.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"PadsUI-B.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"deck-commands.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"make-deck-command.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"midi-pushbutton.maxpat" : 			{
+			"pan2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"ping-meters.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"record-managerA.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"record-router.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"record-managerB.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"fakestereo.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -192,11 +202,6 @@
 			}
 ,
 			"fadealpha.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Output router.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -287,5 +292,6 @@
 	"amxdtype" : 0,
 	"readonly" : 1,
 	"devpathtype" : 0,
-	"devpath" : "."
+	"devpath" : ".",
+	"sortmode" : 0
 }
